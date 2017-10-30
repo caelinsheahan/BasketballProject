@@ -3,3002 +3,2979 @@ $(document).ready(function() {
   var playernames = [{
       "firstName": "Alex",
       "lastName": "Abrines",
-      "playerId": 203518,
-      "teamId": 1610612760
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'shooting'
     },
     {
       "firstName": "Quincy",
       "lastName": "Acy",
-      "playerId": 203112,
-      "teamId": 1610612751
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'dunking'
     },
     {
       "firstName": "Steven",
       "lastName": "Adams",
-      "playerId": 203500,
-      "teamId": 1610612760
+      "scrubBenchStarter": 'starter',
+      "primarySkill": 'kickingstevenadams'
     },
     {
       "firstName": "Bam",
       "lastName": "Adebayo",
-      "playerId": 1628389,
-      "teamId": 1610612748
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'meh'
     },
     {
       "firstName": "Arron",
       "lastName": "Afflalo",
-      "playerId": 201167,
-      "teamId": 1610612753
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'shooting'
     },
     {
       "firstName": "Alexis",
       "lastName": "Ajinca",
-      "playerId": 201582,
-      "teamId": 1610612740
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'tall'
     },
     {
       "firstName": "Cole",
       "lastName": "Aldrich",
-      "playerId": 202332,
-      "teamId": 1610612750
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'meh'
     },
     {
       "firstName": "LaMarcus",
       "lastName": "Aldridge",
-      "playerId": 200746,
-      "teamId": 1610612759
+      "scrubBenchStarter": 'starter',
+      "primarySkill": 'postup'
     },
     {
       "firstName": "Jarrett",
       "lastName": "Allen",
-      "playerId": 1628386,
-      "teamId": 1610612751
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'meh'
     },
     {
       "firstName": "Kadeem",
       "lastName": "Allen",
-      "playerId": 1628443,
-      "teamId": 1610612738
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'meh'
     },
     {
       "firstName": "Tony",
       "lastName": "Allen",
-      "playerId": 2754,
-      "teamId": 1610612740
+      "scrubBenchStarter": 'starter',
+      "primarySkill": 'defense'
     },
     {
       "firstName": "Al-Farouq",
       "lastName": "Aminu",
-      "playerId": 202329,
-      "teamId": 1610612757
+      "scrubBenchStarter": 'starter',
+      "primarySkill": 'shooting'
     },
     {
       "firstName": "Justin",
       "lastName": "Anderson",
-      "playerId": 1626147,
-      "teamId": 1610612755
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'meh'
     },
     {
       "firstName": "Kyle",
       "lastName": "Anderson",
-      "playerId": 203937,
-      "teamId": 1610612759
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'meh'
     },
     {
       "firstName": "Ryan",
       "lastName": "Anderson",
-      "playerId": 201583,
-      "teamId": 1610612745
+      "scrubBenchStarter": 'starter',
+      "primarySkill": 'shooting'
     },
     {
       "firstName": "Ike",
       "lastName": "Anigbogu",
-      "playerId": 1628387,
-      "teamId": 1610612754
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'meh'
     },
     {
       "firstName": "Giannis",
       "lastName": "Antetokounmpo",
-      "playerId": 203507,
-      "teamId": 1610612749
+      "scrubBenchStarter": 'starter',
+      "primarySkill": 'inspectorgadget'
     },
     {
       "firstName": "Carmelo",
       "lastName": "Anthony",
-      "playerId": 2546,
-      "teamId": 1610612760
+      "scrubBenchStarter": 'starter',
+      "primarySkill": 'blackhole'
     },
     {
       "firstName": "OG",
       "lastName": "Anunoby",
-      "playerId": 1628384,
-      "teamId": 1610612761
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'originalgangster'
     },
     {
       "firstName": "Ryan",
       "lastName": "Arcidiacono",
-      "playerId": 1627853,
-      "teamId": 1610612741
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'meh'
     },
     {
       "firstName": "Trevor",
       "lastName": "Ariza",
-      "playerId": 2772,
-      "teamId": 1610612745
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'long'
     },
     {
       "firstName": "Darrell",
       "lastName": "Arthur",
-      "playerId": 201589,
-      "teamId": 1610612743
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'boring'
     },
     {
       "firstName": "Jamel",
       "lastName": "Artis",
-      "playerId": 1628503,
-      "teamId": 1610612753
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'snore'
     },
     {
       "firstName": "Omer",
       "lastName": "Asik",
-      "playerId": 201600,
-      "teamId": 1610612740
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'turkish'
     },
     {
       "firstName": "D.J.",
       "lastName": "Augustin",
-      "playerId": 201571,
-      "teamId": 1610612753
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'turntable'
     },
     {
       "firstName": "Luke",
       "lastName": "Babbitt",
-      "playerId": 202337,
-      "teamId": 1610612737
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'iamyourfather'
     },
     {
       "firstName": "Dwayne",
       "lastName": "Bacon",
-      "playerId": 1628407,
-      "teamId": 1610612766
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'bacon'
     },
     {
       "firstName": "Ron",
       "lastName": "Baker",
-      "playerId": 1627758,
-      "teamId": 1610612752
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'ilovescotch'
     },
     {
       "firstName": "Wade",
       "lastName": "Baldwin IV",
-      "playerId": 1627735,
-      "teamId": 1610612757
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'dunno'
     },
     {
       "firstName": "Lonzo",
       "lastName": "Ball",
-      "playerId": 1628366,
-      "teamId": 1610612747
+      "scrubBenchStarter": 'starter',
+      "primarySkill": 'lorenzoball'
     },
     {
       "firstName": "J.J.",
       "lastName": "Barea",
-      "playerId": 200826,
-      "teamId": 1610612742
+      "scrubBenchStarter": 'starter',
+      "primarySkill": 'roadrunner'
     },
     {
       "firstName": "Harrison",
       "lastName": "Barnes",
-      "playerId": 203084,
-      "teamId": 1610612742
+      "scrubBenchStarter": 'starter',
+      "primarySkill": 'overpriced'
     },
     {
       "firstName": "Will",
       "lastName": "Barton",
-      "playerId": 203115,
-      "teamId": 1610612743
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'acceptable'
     },
     {
       "firstName": "Nicolas",
       "lastName": "Batum",
-      "playerId": 201587,
-      "teamId": 1610612766
+      "scrubBenchStarter": 'starter',
+      "primarySkill": 'french'
     },
     {
       "firstName": "Jerryd",
       "lastName": "Bayless",
-      "playerId": 201573,
-      "teamId": 1610612755
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'eddymurphyreaction'
     },
     {
       "firstName": "Aron",
       "lastName": "Baynes",
-      "playerId": 203382,
-      "teamId": 1610612738
+      "scrubBenchStarter": 'starter',
+      "primarySkill": 'thisisaknife'
     },
     {
       "firstName": "Kent",
       "lastName": "Bazemore",
-      "playerId": 203145,
-      "teamId": 1610612737
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'more'
     },
     {
       "firstName": "Bradley",
       "lastName": "Beal",
-      "playerId": 203078,
-      "teamId": 1610612764
+      "scrubBenchStarter": 'starter',
+      "primarySkill": 'quickdraw'
     },
     {
       "firstName": "Malik",
       "lastName": "Beasley",
-      "playerId": 1627736,
-      "teamId": 1610612743
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'nope'
     },
     {
       "firstName": "Michael",
       "lastName": "Beasley",
-      "playerId": 201563,
-      "teamId": 1610612752
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'blazin'
     },
     {
       "firstName": "Marco",
       "lastName": "Belinelli",
-      "playerId": 201158,
-      "teamId": 1610612737
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'italian'
     },
     {
       "firstName": "Jordan",
       "lastName": "Bell",
-      "playerId": 1628395,
-      "teamId": 1610612744
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'snore'
     },
     {
       "firstName": "DeAndre'",
       "lastName": "Bembry",
-      "playerId": 1627761,
-      "teamId": 1610612737
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'meh'
     },
     {
       "firstName": "Dragan",
       "lastName": "Bender",
-      "playerId": 1627733,
-      "teamId": 1610612756
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'dragon'
     },
     {
       "firstName": "Davis",
       "lastName": "Bertans",
-      "playerId": 202722,
-      "teamId": 1610612759
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'meh'
     },
     {
       "firstName": "Patrick",
       "lastName": "Beverley",
-      "playerId": 201976,
-      "teamId": 1610612746
+      "scrubBenchStarter": 'starter',
+      "primarySkill": 'defense'
     },
     {
       "firstName": "Khem",
       "lastName": "Birch",
-      "playerId": 203920,
-      "teamId": 1610612753
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'breakingbad'
     },
     {
       "firstName": "Jabari",
       "lastName": "Bird",
-      "playerId": 1628444,
-      "teamId": 1610612738
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'bird'
     },
     {
       "firstName": "Bismack",
       "lastName": "Biyombo",
-      "playerId": 202687,
-      "teamId": 1610612753
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'defense'
     },
     {
       "firstName": "Nemanja",
       "lastName": "Bjelica",
-      "playerId": 202357,
-      "teamId": 1610612750
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'whatever'
     },
     {
       "firstName": "Tarik",
       "lastName": "Black",
-      "playerId": 204028,
-      "teamId": 1610612745
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'jackblack'
     },
     {
       "firstName": "Antonio",
       "lastName": "Blakeney",
-      "playerId": 1628469,
-      "teamId": 1610612741
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'meh'
     },
     {
       "firstName": "Eric",
       "lastName": "Bledsoe",
-      "playerId": 202339,
-      "teamId": 1610612756
+      "scrubBenchStarter": 'starter',
+      "primarySkill": 'athletic'
     },
     {
       "firstName": "Vander",
       "lastName": "Blue",
-      "playerId": 203505,
-      "teamId": 1610612747
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'moonlander'
     },
     {
       "firstName": "Bogdan",
       "lastName": "Bogdanovic",
-      "playerId": 203992,
-      "teamId": 1610612758
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'tall'
     },
     {
       "firstName": "Bojan",
       "lastName": "Bogdanovic",
-      "playerId": 202711,
-      "teamId": 1610612754
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'supertall'
     },
     {
       "firstName": "Andrew",
       "lastName": "Bogut",
-      "playerId": 101106,
-      "teamId": 1610612747
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'steveirwin'
     },
     {
       "firstName": "Joel",
       "lastName": "Bolomboy",
-      "playerId": 1627762,
-      "teamId": 1610612749
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'thatsmyboy'
     },
     {
       "firstName": "Devin",
       "lastName": "Booker",
-      "playerId": 1626164,
-      "teamId": 1610612756
+      "scrubBenchStarter": 'starter',
+      "primarySkill": 'alien'
     },
     {
       "firstName": "Trevor",
       "lastName": "Booker",
-      "playerId": 202344,
-      "teamId": 1610612751
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'book'
     },
     {
       "firstName": "Chris",
       "lastName": "Boucher",
-      "playerId": 1628449,
-      "teamId": 1610612744
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'eddymurphyreaction'
     },
     {
       "firstName": "Avery",
       "lastName": "Bradley",
-      "playerId": 202340,
-      "teamId": 1610612765
+      "scrubBenchStarter": 'starter',
+      "primarySkill": 'defense'
     },
     {
       "firstName": "Tony",
       "lastName": "Bradley",
-      "playerId": 1628396,
-      "teamId": 1610612762
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'whoisthis'
     },
     {
       "firstName": "Corey",
       "lastName": "Brewer",
-      "playerId": 201147,
-      "teamId": 1610612747
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'traveling'
     },
     {
       "firstName": "Malcolm",
       "lastName": "Brogdon",
-      "playerId": 1627763,
-      "teamId": 1610612749
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'old'
     },
     {
       "firstName": "Aaron",
       "lastName": "Brooks",
-      "playerId": 201166,
-      "teamId": 1610612750
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'small'
     },
     {
       "firstName": "Dillon",
       "lastName": "Brooks",
-      "playerId": 1628415,
-      "teamId": 1610612763
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'meh'
     },
     {
       "firstName": "Anthony",
       "lastName": "Brown",
-      "playerId": 1626148,
-      "teamId": 1610612750
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'meh'
     },
     {
       "firstName": "Bobby",
       "lastName": "Brown",
-      "playerId": 201628,
-      "teamId": 1610612745
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'jamesbrown'
     },
     {
       "firstName": "Jaylen",
       "lastName": "Brown",
-      "playerId": 1627759,
-      "teamId": 1610612738
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'meh'
     },
     {
       "firstName": "Lorenzo",
       "lastName": "Brown",
-      "playerId": 203485,
-      "teamId": 1610612761
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'snore'
     },
     {
       "firstName": "Sterling",
       "lastName": "Brown",
-      "playerId": 1628425,
-      "teamId": 1610612749
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'pounds'
     },
     {
       "firstName": "Nicolas",
       "lastName": "Brussino",
-      "playerId": 1627852,
-      "teamId": 1610612737
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'meh'
     },
     {
       "firstName": "Thomas",
       "lastName": "Bryant",
-      "playerId": 1628418,
-      "teamId": 1610612747
-    },
-    {
-      "firstName": "Reggie",
-      "lastName": "Bullock",
-      "playerId": 203493,
-      "teamId": 1610612765
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'unknown'
     },
     {
       "firstName": "Alec",
       "lastName": "Burks",
-      "playerId": 202692,
-      "teamId": 1610612762
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'dunking'
     },
     {
       "firstName": "Jimmy",
       "lastName": "Butler",
-      "playerId": 202710,
-      "teamId": 1610612750
-    },
-    {
-      "firstName": "Dwight",
-      "lastName": "Buycks",
-      "playerId": 202779,
-      "teamId": 1610612765
-    },
-    {
-      "firstName": "Bruno",
-      "lastName": "Caboclo",
-      "playerId": 203998,
-      "teamId": 1610612761
+      "scrubBenchStarter": 'starter',
+      "primarySkill": 'spacejam'
     },
     {
       "firstName": "Jose",
       "lastName": "Calderon",
-      "playerId": 101181,
-      "teamId": 1610612739
-    },
-    {
-      "firstName": "Kentavious",
-      "lastName": "Caldwell-Pope",
-      "playerId": 203484,
-      "teamId": 1610612747
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'ancient'
     },
     {
       "firstName": "Clint",
       "lastName": "Capela",
-      "playerId": 203991,
-      "teamId": 1610612745
+      "scrubBenchStarter": 'starter',
+      "primarySkill": 'center'
     },
     {
       "firstName": "DeMarre",
       "lastName": "Carroll",
-      "playerId": 201960,
-      "teamId": 1610612751
+      "scrubBenchStarter": 'starter',
+      "primarySkill": 'defense'
     },
     {
       "firstName": "Vince",
       "lastName": "Carter",
-      "playerId": 1713,
-      "teamId": 1610612758
+      "scrubBenchStarter": 'starter',
+      "primarySkill": 'legend'
     },
     {
       "firstName": "Michael",
       "lastName": "Carter-Williams",
-      "playerId": 203487,
-      "teamId": 1610612766
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'length'
     },
     {
       "firstName": "Alex",
       "lastName": "Caruso",
-      "playerId": 1627936,
-      "teamId": 1610612747
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": ''
     },
     {
       "firstName": "Omri",
       "lastName": "Casspi",
-      "playerId": 201956,
-      "teamId": 1610612744
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'shooting'
     },
     {
       "firstName": "Willie",
       "lastName": "Cauley-Stein",
-      "playerId": 1626161,
-      "teamId": 1610612758
+      "scrubBenchStarter": 666,
+      "primarySkill": 60678
     },
     {
       "firstName": "Mario",
       "lastName": "Chalmers",
-      "playerId": 201596,
-      "teamId": 1610612763
+      "scrubBenchStarter": 096,
+      "primarySkill": 60676
     },
     {
       "firstName": "Tyson",
       "lastName": "Chandler",
-      "playerId": 2199,
-      "teamId": 1610612756
+      "scrubBenchStarter": 99,
+      "primarySkill": 60676
     },
     {
       "firstName": "Wilson",
       "lastName": "Chandler",
-      "playerId": 201163,
-      "teamId": 1610612743
+      "scrubBenchStarter": 06,
+      "primarySkill": 6067
     },
     {
       "firstName": "Marquese",
       "lastName": "Chriss",
-      "playerId": 1627737,
-      "teamId": 1610612756
+      "scrubBenchStarter": 6777,
+      "primarySkill": 60676
     },
     {
       "firstName": "Ian",
       "lastName": "Clark",
-      "playerId": 203546,
-      "teamId": 1610612740
+      "scrubBenchStarter": 06,
+      "primarySkill": 60670
     },
     {
       "firstName": "Jordan",
       "lastName": "Clarkson",
-      "playerId": 203903,
-      "teamId": 1610612747
+      "scrubBenchStarter": 090,
+      "primarySkill": 60677
     },
     {
       "firstName": "Gian",
       "lastName": "Clavell",
-      "playerId": 1628492,
-      "teamId": 1610612742
+      "scrubBenchStarter": 689,
+      "primarySkill": 6067
     },
     {
       "firstName": "John",
       "lastName": "Collins",
-      "playerId": 1628381,
-      "teamId": 1610612737
+      "scrubBenchStarter": 688,
+      "primarySkill": 60677
     },
     {
       "firstName": "Zach",
       "lastName": "Collins",
-      "playerId": 1628380,
-      "teamId": 1610612757
+      "scrubBenchStarter": 6880,
+      "primarySkill": 60677
     },
     {
       "firstName": "Darren",
       "lastName": "Collison",
-      "playerId": 201954,
-      "teamId": 1610612754
+      "scrubBenchStarter": 09,
+      "primarySkill": 6067
     },
     {
       "firstName": "Nick",
       "lastName": "Collison",
-      "playerId": 2555,
-      "teamId": 1610612760
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 606760
     },
     {
       "firstName": "Mike",
       "lastName": "Conley",
-      "playerId": 201144,
-      "teamId": 1610612763
+      "scrubBenchStarter": 0,
+      "primarySkill": 60676
     },
     {
       "firstName": "Pat",
       "lastName": "Connaughton",
-      "playerId": 1626192,
-      "teamId": 1610612757
+      "scrubBenchStarter": 669,
+      "primarySkill": 60677
     },
     {
       "firstName": "Quinn",
       "lastName": "Cook",
-      "playerId": 1626188,
-      "teamId": 1610612744
+      "scrubBenchStarter": 6688,
+      "primarySkill": 6067
     },
     {
       "firstName": "Charles",
       "lastName": "Cooke",
-      "playerId": 1628429,
-      "teamId": 1610612740
+      "scrubBenchStarter": 689,
+      "primarySkill": 60670
     },
     {
       "firstName": "Jack",
       "lastName": "Cooley",
-      "playerId": 204022,
-      "teamId": 1610612758
+      "scrubBenchStarter": 00,
+      "primarySkill": 60678
     },
     {
       "firstName": "Matt",
       "lastName": "Costello",
-      "playerId": 1627856,
-      "teamId": 1610612759
+      "scrubBenchStarter": 6786,
+      "primarySkill": 60679
     },
     {
       "firstName": "DeMarcus",
       "lastName": "Cousins",
-      "playerId": 202326,
-      "teamId": 1610612740
+      "scrubBenchStarter": 06,
+      "primarySkill": 60670
     },
     {
       "firstName": "Robert",
       "lastName": "Covington",
-      "playerId": 203496,
-      "teamId": 1610612755
+      "scrubBenchStarter": 096,
+      "primarySkill": 6067
     },
     {
       "firstName": "Allen",
       "lastName": "Crabbe",
-      "playerId": 203459,
-      "teamId": 1610612751
+      "scrubBenchStarter": 09,
+      "primarySkill": 6067
     },
     {
       "firstName": "Torrey",
       "lastName": "Craig",
-      "playerId": 1628470,
-      "teamId": 1610612743
+      "scrubBenchStarter": 6870,
+      "primarySkill": 6067
     },
     {
       "firstName": "Jamal",
       "lastName": "Crawford",
-      "playerId": 2037,
-      "teamId": 1610612750
+      "scrubBenchStarter": 07,
+      "primarySkill": 60670
     },
     {
       "firstName": "Jordan",
       "lastName": "Crawford",
-      "playerId": 202348,
-      "teamId": 0
+      "scrubBenchStarter": 08,
+      "primarySkill": 0
     },
     {
       "firstName": "Jae",
       "lastName": "Crowder",
-      "playerId": 203109,
-      "teamId": 1610612739
+      "scrubBenchStarter": 009,
+      "primarySkill": 60679
     },
     {
       "firstName": "Dante",
       "lastName": "Cunningham",
-      "playerId": 201967,
-      "teamId": 1610612740
+      "scrubBenchStarter": 0967,
+      "primarySkill": 60670
     },
     {
       "firstName": "Seth",
       "lastName": "Curry",
-      "playerId": 203552,
-      "teamId": 1610612742
+      "scrubBenchStarter": 0,
+      "primarySkill": 6067
     },
     {
       "firstName": "Stephen",
       "lastName": "Curry",
-      "playerId": 201939,
-      "teamId": 1610612744
+      "scrubBenchStarter": 099,
+      "primarySkill": 6067
     },
     {
       "firstName": "Troy",
       "lastName": "Daniels",
-      "playerId": 203584,
-      "teamId": 1610612756
+      "scrubBenchStarter": 08,
+      "primarySkill": 60676
     },
     {
       "firstName": "Anthony",
       "lastName": "Davis",
-      "playerId": 203076,
-      "teamId": 1610612740
+      "scrubBenchStarter": 0076,
+      "primarySkill": 60670
     },
     {
       "firstName": "Deyonta",
       "lastName": "Davis",
-      "playerId": 1627738,
-      "teamId": 1610612763
+      "scrubBenchStarter": 6778,
+      "primarySkill": 60676
     },
     {
       "firstName": "Ed",
       "lastName": "Davis",
-      "playerId": 202334,
-      "teamId": 1610612757
+      "scrubBenchStarter": 0,
+      "primarySkill": 60677
     },
     {
       "firstName": "DeMar",
       "lastName": "DeRozan",
-      "playerId": 201942,
-      "teamId": 1610612761
+      "scrubBenchStarter": 09,
+      "primarySkill": 60676
     },
     {
       "firstName": "Dewayne",
       "lastName": "Dedmon",
-      "playerId": 203473,
-      "teamId": 1610612737
+      "scrubBenchStarter": 07,
+      "primarySkill": 60677
     },
     {
       "firstName": "Sam",
       "lastName": "Dekker",
-      "playerId": 1626155,
-      "teamId": 1610612746
+      "scrubBenchStarter": 66,
+      "primarySkill": 60676
     },
     {
       "firstName": "Malcolm",
       "lastName": "Delaney",
-      "playerId": 1627098,
-      "teamId": 1610612737
+      "scrubBenchStarter": 67098,
+      "primarySkill": 60677
     },
     {
       "firstName": "Matthew",
       "lastName": "Dellavedova",
-      "playerId": 203521,
-      "teamId": 1610612749
+      "scrubBenchStarter": 0,
+      "primarySkill": 60679
     },
     {
       "firstName": "Luol",
       "lastName": "Deng",
-      "playerId": 2736,
-      "teamId": 1610612747
+      "scrubBenchStarter": 76,
+      "primarySkill": 60677
     },
     {
       "firstName": "Cheick",
       "lastName": "Diallo",
-      "playerId": 1627767,
-      "teamId": 1610612740
+      "scrubBenchStarter": 67767,
+      "primarySkill": 60670
     },
     {
       "firstName": "Gorgui",
       "lastName": "Dieng",
-      "playerId": 203476,
-      "teamId": 1610612750
+      "scrubBenchStarter": 076,
+      "primarySkill": 60670
     },
     {
       "firstName": "Spencer",
       "lastName": "Dinwiddie",
-      "playerId": 203915,
-      "teamId": 1610612751
+      "scrubBenchStarter": 09,
+      "primarySkill": 6067
     },
     {
       "firstName": "Tyler",
       "lastName": "Dorsey",
-      "playerId": 1628416,
-      "teamId": 1610612737
+      "scrubBenchStarter": 686,
+      "primarySkill": 60677
     },
     {
       "firstName": "Damyean",
       "lastName": "Dotson",
-      "playerId": 1628422,
-      "teamId": 1610612752
+      "scrubBenchStarter": 68,
+      "primarySkill": 6067
     },
     {
       "firstName": "PJ",
       "lastName": "Dozier",
-      "playerId": 1628408,
-      "teamId": 1610612760
+      "scrubBenchStarter": 6808,
+      "primarySkill": 606760
     },
     {
       "firstName": "Goran",
       "lastName": "Dragic",
-      "playerId": 201609,
-      "teamId": 1610612748
+      "scrubBenchStarter": 0609,
+      "primarySkill": 60678
     },
     {
       "firstName": "Andre",
       "lastName": "Drummond",
-      "playerId": 203083,
-      "teamId": 1610612765
+      "scrubBenchStarter": 008,
+      "primarySkill": 60676
     },
     {
       "firstName": "Jared",
       "lastName": "Dudley",
-      "playerId": 201162,
-      "teamId": 1610612756
+      "scrubBenchStarter": 06,
+      "primarySkill": 60676
     },
     {
       "firstName": "Kris",
       "lastName": "Dunn",
-      "playerId": 1627739,
-      "teamId": 1610612741
+      "scrubBenchStarter": 6779,
+      "primarySkill": 6067
     },
     {
       "firstName": "Kevin",
       "lastName": "Durant",
-      "playerId": 201142,
-      "teamId": 1610612744
+      "scrubBenchStarter": 0,
+      "primarySkill": 6067
     },
     {
       "firstName": "Henry",
       "lastName": "Ellenson",
-      "playerId": 1627740,
-      "teamId": 1610612765
+      "scrubBenchStarter": 6770,
+      "primarySkill": 60676
     },
     {
       "firstName": "Wayne",
       "lastName": "Ellington",
-      "playerId": 201961,
-      "teamId": 1610612748
+      "scrubBenchStarter": 096,
+      "primarySkill": 60678
     },
     {
       "firstName": "Joel",
       "lastName": "Embiid",
-      "playerId": 203954,
-      "teamId": 1610612755
+      "scrubBenchStarter": 09,
+      "primarySkill": 6067
     },
     {
       "firstName": "Tyler",
       "lastName": "Ennis",
-      "playerId": 203898,
-      "teamId": 1610612747
+      "scrubBenchStarter": 0898,
+      "primarySkill": 60677
     },
     {
       "firstName": "James",
       "lastName": "Ennis III",
-      "playerId": 203516,
-      "teamId": 1610612763
+      "scrubBenchStarter": 06,
+      "primarySkill": 60676
     },
     {
       "firstName": "Jawun",
       "lastName": "Evans",
-      "playerId": 1628393,
-      "teamId": 1610612746
+      "scrubBenchStarter": 689,
+      "primarySkill": 60676
     },
     {
       "firstName": "Tyreke",
       "lastName": "Evans",
-      "playerId": 201936,
-      "teamId": 1610612763
+      "scrubBenchStarter": 096,
+      "primarySkill": 60676
     },
     {
       "firstName": "Dante",
       "lastName": "Exum",
-      "playerId": 203957,
-      "teamId": 1610612762
+      "scrubBenchStarter": 097,
+      "primarySkill": 60676
     },
     {
       "firstName": "Kenneth",
       "lastName": "Faried",
-      "playerId": 202702,
-      "teamId": 1610612743
+      "scrubBenchStarter": 070,
+      "primarySkill": 6067
     },
     {
       "firstName": "Derrick",
       "lastName": "Favors",
-      "playerId": 202324,
-      "teamId": 1610612762
+      "scrubBenchStarter": 0,
+      "primarySkill": 60676
     },
     {
       "firstName": "Kay",
       "lastName": "Felder",
-      "playerId": 1627770,
-      "teamId": 1610612741
+      "scrubBenchStarter": 67770,
+      "primarySkill": 6067
     },
     {
       "firstName": "Cristiano",
       "lastName": "Felicio",
-      "playerId": 1626245,
-      "teamId": 1610612741
+      "scrubBenchStarter": 66,
+      "primarySkill": 6067
     },
     {
       "firstName": "Carrick",
       "lastName": "Felix",
-      "playerId": 203467,
-      "teamId": 1610612764
+      "scrubBenchStarter": 067,
+      "primarySkill": 60676
     },
     {
       "firstName": "Raymond",
       "lastName": "Felton",
-      "playerId": 101109,
-      "teamId": 1610612760
+      "scrubBenchStarter": 009,
+      "primarySkill": 606760
     },
     {
       "firstName": "Terrance",
       "lastName": "Ferguson",
-      "playerId": 1628390,
-      "teamId": 1610612760
+      "scrubBenchStarter": 6890,
+      "primarySkill": 606760
     },
     {
       "firstName": "Yogi",
       "lastName": "Ferrell",
-      "playerId": 1627812,
-      "teamId": 1610612742
+      "scrubBenchStarter": 678,
+      "primarySkill": 6067
     },
     {
       "firstName": "Dorian",
       "lastName": "Finney-Smith",
-      "playerId": 1627827,
-      "teamId": 1610612742
+      "scrubBenchStarter": 6787,
+      "primarySkill": 6067
     },
     {
       "firstName": "Bryn",
       "lastName": "Forbes",
-      "playerId": 1627854,
-      "teamId": 1610612759
+      "scrubBenchStarter": 678,
+      "primarySkill": 60679
     },
     {
       "firstName": "Evan",
       "lastName": "Fournier",
-      "playerId": 203095,
-      "teamId": 1610612753
+      "scrubBenchStarter": 009,
+      "primarySkill": 6067
     },
     {
       "firstName": "De'Aaron",
       "lastName": "Fox",
-      "playerId": 1628368,
-      "teamId": 1610612758
+      "scrubBenchStarter": 6868,
+      "primarySkill": 60678
     },
     {
       "firstName": "Tim",
       "lastName": "Frazier",
-      "playerId": 204025,
-      "teamId": 1610612764
+      "scrubBenchStarter": 00,
+      "primarySkill": 60676
     },
     {
       "firstName": "Channing",
       "lastName": "Frye",
-      "playerId": 101112,
-      "teamId": 1610612739
+      "scrubBenchStarter": 0,
+      "primarySkill": 60679
     },
     {
       "firstName": "Markelle",
       "lastName": "Fultz",
-      "playerId": 1628365,
-      "teamId": 1610612755
+      "scrubBenchStarter": 686,
+      "primarySkill": 6067
     },
     {
       "firstName": "Danilo",
       "lastName": "Gallinari",
-      "playerId": 201568,
-      "teamId": 1610612746
+      "scrubBenchStarter": 068,
+      "primarySkill": 60676
     },
     {
       "firstName": "Langston",
       "lastName": "Galloway",
-      "playerId": 204038,
-      "teamId": 1610612765
+      "scrubBenchStarter": 008,
+      "primarySkill": 60676
     },
     {
       "firstName": "Marc",
       "lastName": "Gasol",
-      "playerId": 201188,
-      "teamId": 1610612763
+      "scrubBenchStarter": 088,
+      "primarySkill": 60676
     },
     {
       "firstName": "Pau",
       "lastName": "Gasol",
-      "playerId": 2200,
-      "teamId": 1610612759
+      "scrubBenchStarter": 00,
+      "primarySkill": 60679
     },
     {
       "firstName": "Rudy",
       "lastName": "Gay",
-      "playerId": 200752,
-      "teamId": 1610612759
+      "scrubBenchStarter": 007,
+      "primarySkill": 60679
     },
     {
       "firstName": "Paul",
       "lastName": "George",
-      "playerId": 202331,
-      "teamId": 1610612760
+      "scrubBenchStarter": 0,
+      "primarySkill": 606760
     },
     {
       "firstName": "Marcus",
       "lastName": "Georges-Hunt",
-      "playerId": 1627875,
-      "teamId": 1610612750
+      "scrubBenchStarter": 6787,
+      "primarySkill": 60670
     },
     {
       "firstName": "Taj",
       "lastName": "Gibson",
-      "playerId": 201959,
-      "teamId": 1610612750
+      "scrubBenchStarter": 099,
+      "primarySkill": 60670
     },
     {
       "firstName": "Harry",
       "lastName": "Giles",
-      "playerId": 1628385,
-      "teamId": 1610612758
+      "scrubBenchStarter": 688,
+      "primarySkill": 60678
     },
     {
       "firstName": "Manu",
       "lastName": "Ginobili",
-      "playerId": 1938,
-      "teamId": 1610612759
+      "scrubBenchStarter": 98,
+      "primarySkill": 60679
     },
     {
       "firstName": "Rudy",
       "lastName": "Gobert",
-      "playerId": 203497,
-      "teamId": 1610612762
+      "scrubBenchStarter": 097,
+      "primarySkill": 60676
     },
     {
       "firstName": "Aaron",
       "lastName": "Gordon",
-      "playerId": 203932,
-      "teamId": 1610612753
+      "scrubBenchStarter": 09,
+      "primarySkill": 6067
     },
     {
       "firstName": "Eric",
       "lastName": "Gordon",
-      "playerId": 201569,
-      "teamId": 1610612745
+      "scrubBenchStarter": 069,
+      "primarySkill": 6067
     },
     {
       "firstName": "Marcin",
       "lastName": "Gortat",
-      "playerId": 101162,
-      "teamId": 1610612764
+      "scrubBenchStarter": 06,
+      "primarySkill": 60676
     },
     {
       "firstName": "Treveon",
       "lastName": "Graham",
-      "playerId": 1626203,
-      "teamId": 1610612766
+      "scrubBenchStarter": 660,
+      "primarySkill": 606766
     },
     {
       "firstName": "Jerami",
       "lastName": "Grant",
-      "playerId": 203924,
-      "teamId": 1610612760
+      "scrubBenchStarter": 09,
+      "primarySkill": 606760
     },
     {
       "firstName": "Jerian",
       "lastName": "Grant",
-      "playerId": 1626170,
-      "teamId": 1610612741
+      "scrubBenchStarter": 6670,
+      "primarySkill": 6067
     },
     {
       "firstName": "Danny",
       "lastName": "Green",
-      "playerId": 201980,
-      "teamId": 1610612759
+      "scrubBenchStarter": 0980,
+      "primarySkill": 60679
     },
     {
       "firstName": "Draymond",
       "lastName": "Green",
-      "playerId": 203110,
-      "teamId": 1610612744
+      "scrubBenchStarter": 00,
+      "primarySkill": 6067
     },
     {
       "firstName": "JaMychal",
       "lastName": "Green",
-      "playerId": 203210,
-      "teamId": 1610612763
+      "scrubBenchStarter": 00,
+      "primarySkill": 60676
     },
     {
       "firstName": "Jeff",
       "lastName": "Green",
-      "playerId": 201145,
-      "teamId": 1610612739
+      "scrubBenchStarter": 0,
+      "primarySkill": 60679
     },
     {
       "firstName": "Blake",
       "lastName": "Griffin",
-      "playerId": 201933,
-      "teamId": 1610612746
+      "scrubBenchStarter": 09,
+      "primarySkill": 60676
     },
     {
       "firstName": "Eric",
       "lastName": "Griffin",
-      "playerId": 203547,
-      "teamId": 1610612762
+      "scrubBenchStarter": 07,
+      "primarySkill": 60676
     },
     {
       "firstName": "Daniel",
       "lastName": "Hamilton",
-      "playerId": 1627772,
-      "teamId": 1610612760
+      "scrubBenchStarter": 6777,
+      "primarySkill": 606760
     },
     {
       "firstName": "AJ",
       "lastName": "Hammons",
-      "playerId": 1627773,
-      "teamId": 1610612748
+      "scrubBenchStarter": 6777,
+      "primarySkill": 60678
     },
     {
       "firstName": "Tim",
       "lastName": "Hardaway Jr.",
-      "playerId": 203501,
-      "teamId": 1610612752
+      "scrubBenchStarter": 00,
+      "primarySkill": 6067
     },
     {
       "firstName": "James",
       "lastName": "Harden",
-      "playerId": 201935,
-      "teamId": 1610612745
+      "scrubBenchStarter": 09,
+      "primarySkill": 6067
     },
     {
       "firstName": "Maurice",
       "lastName": "Harkless",
-      "playerId": 203090,
-      "teamId": 1610612757
+      "scrubBenchStarter": 0090,
+      "primarySkill": 60677
     },
     {
       "firstName": "Montrezl",
       "lastName": "Harrell",
-      "playerId": 1626149,
-      "teamId": 1610612746
+      "scrubBenchStarter": 669,
+      "primarySkill": 60676
     },
     {
       "firstName": "Devin",
       "lastName": "Harris",
-      "playerId": 2734,
-      "teamId": 1610612742
+      "scrubBenchStarter": 7,
+      "primarySkill": 6067
     },
     {
       "firstName": "Gary",
       "lastName": "Harris",
-      "playerId": 203914,
-      "teamId": 1610612743
+      "scrubBenchStarter": 09,
+      "primarySkill": 6067
     },
     {
       "firstName": "Joe",
       "lastName": "Harris",
-      "playerId": 203925,
-      "teamId": 1610612751
+      "scrubBenchStarter": 09,
+      "primarySkill": 6067
     },
     {
       "firstName": "Tobias",
       "lastName": "Harris",
-      "playerId": 202699,
-      "teamId": 1610612765
+      "scrubBenchStarter": 0699,
+      "primarySkill": 60676
     },
     {
       "firstName": "Andrew",
       "lastName": "Harrison",
-      "playerId": 1626150,
-      "teamId": 1610612763
+      "scrubBenchStarter": 660,
+      "primarySkill": 60676
     },
     {
       "firstName": "Josh",
       "lastName": "Hart",
-      "playerId": 1628404,
-      "teamId": 1610612747
+      "scrubBenchStarter": 680,
+      "primarySkill": 60677
     },
     {
       "firstName": "Udonis",
       "lastName": "Haslem",
-      "playerId": 2617,
-      "teamId": 1610612748
+      "scrubBenchStarter": 67,
+      "primarySkill": 60678
     },
     {
       "firstName": "Gordon",
       "lastName": "Hayward",
-      "playerId": 202330,
-      "teamId": 1610612738
+      "scrubBenchStarter": 00,
+      "primarySkill": 60678
     },
     {
       "firstName": "John",
       "lastName": "Henson",
-      "playerId": 203089,
-      "teamId": 1610612749
+      "scrubBenchStarter": 0089,
+      "primarySkill": 60679
     },
     {
       "firstName": "Juan",
       "lastName": "Hernangomez",
-      "playerId": 1627823,
-      "teamId": 1610612743
+      "scrubBenchStarter": 678,
+      "primarySkill": 6067
     },
     {
       "firstName": "Willy",
       "lastName": "Hernangomez",
-      "playerId": 1626195,
-      "teamId": 1610612752
+      "scrubBenchStarter": 669,
+      "primarySkill": 6067
     },
     {
       "firstName": "Mario",
       "lastName": "Hezonja",
-      "playerId": 1626209,
-      "teamId": 1610612753
+      "scrubBenchStarter": 6609,
+      "primarySkill": 6067
     },
     {
       "firstName": "Isaiah",
       "lastName": "Hicks",
-      "playerId": 1628439,
-      "teamId": 1610612752
+      "scrubBenchStarter": 689,
+      "primarySkill": 6067
     },
     {
       "firstName": "Buddy",
       "lastName": "Hield",
-      "playerId": 1627741,
-      "teamId": 1610612758
+      "scrubBenchStarter": 677,
+      "primarySkill": 60678
     },
     {
       "firstName": "Nene",
       "lastName": "",
-      "playerId": 2403,
-      "teamId": 1610612745
+      "scrubBenchStarter": 0,
+      "primarySkill": 6067
     },
     {
       "firstName": "George",
       "lastName": "Hill",
-      "playerId": 201588,
-      "teamId": 1610612758
+      "scrubBenchStarter": 088,
+      "primarySkill": 60678
     },
     {
       "firstName": "Solomon",
       "lastName": "Hill",
-      "playerId": 203524,
-      "teamId": 1610612740
+      "scrubBenchStarter": 0,
+      "primarySkill": 60670
     },
     {
       "firstName": "Darrun",
       "lastName": "Hilliard",
-      "playerId": 1626199,
-      "teamId": 1610612759
+      "scrubBenchStarter": 6699,
+      "primarySkill": 60679
     },
     {
       "firstName": "Jrue",
       "lastName": "Holiday",
-      "playerId": 201950,
-      "teamId": 1610612740
+      "scrubBenchStarter": 090,
+      "primarySkill": 60670
     },
     {
       "firstName": "Justin",
       "lastName": "Holiday",
-      "playerId": 203200,
-      "teamId": 1610612741
+      "scrubBenchStarter": 000,
+      "primarySkill": 6067
     },
     {
       "firstName": "John",
       "lastName": "Holland",
-      "playerId": 204066,
-      "teamId": 1610612739
+      "scrubBenchStarter": 0066,
+      "primarySkill": 60679
     },
     {
       "firstName": "Rondae",
       "lastName": "Hollis-Jefferson",
-      "playerId": 1626178,
-      "teamId": 1610612751
+      "scrubBenchStarter": 6678,
+      "primarySkill": 6067
     },
     {
       "firstName": "Richaun",
       "lastName": "Holmes",
-      "playerId": 1626158,
-      "teamId": 1610612755
+      "scrubBenchStarter": 668,
+      "primarySkill": 6067
     },
     {
       "firstName": "Rodney",
       "lastName": "Hood",
-      "playerId": 203918,
-      "teamId": 1610612762
+      "scrubBenchStarter": 098,
+      "primarySkill": 60676
     },
     {
       "firstName": "Al",
       "lastName": "Horford",
-      "playerId": 201143,
-      "teamId": 1610612738
+      "scrubBenchStarter": 0,
+      "primarySkill": 60678
     },
     {
       "firstName": "Dwight",
       "lastName": "Howard",
-      "playerId": 2730,
-      "teamId": 1610612766
+      "scrubBenchStarter": 70,
+      "primarySkill": 606766
     },
     {
       "firstName": "Josh",
       "lastName": "Huestis",
-      "playerId": 203962,
-      "teamId": 1610612760
+      "scrubBenchStarter": 096,
+      "primarySkill": 606760
     },
     {
       "firstName": "Vince",
       "lastName": "Hunter",
-      "playerId": 629208,
-      "teamId": 1610612763
+      "scrubBenchStarter": 6908,
+      "primarySkill": 60676
     },
     {
       "firstName": "Serge",
       "lastName": "Ibaka",
-      "playerId": 201586,
-      "teamId": 1610612761
+      "scrubBenchStarter": 086,
+      "primarySkill": 60676
     },
     {
       "firstName": "Andre",
       "lastName": "Iguodala",
-      "playerId": 2738,
-      "teamId": 1610612744
+      "scrubBenchStarter": 78,
+      "primarySkill": 6067
     },
     {
       "firstName": "Ersan",
       "lastName": "Ilyasova",
-      "playerId": 101141,
-      "teamId": 1610612737
+      "scrubBenchStarter": 0,
+      "primarySkill": 60677
     },
     {
       "firstName": "Joe",
       "lastName": "Ingles",
-      "playerId": 204060,
-      "teamId": 1610612762
+      "scrubBenchStarter": 0060,
+      "primarySkill": 60676
     },
     {
       "firstName": "Brandon",
       "lastName": "Ingram",
-      "playerId": 1627742,
-      "teamId": 1610612747
+      "scrubBenchStarter": 677,
+      "primarySkill": 60677
     },
     {
       "firstName": "Kyrie",
       "lastName": "Irving",
-      "playerId": 202681,
-      "teamId": 1610612738
+      "scrubBenchStarter": 068,
+      "primarySkill": 60678
     },
     {
       "firstName": "Jonathan",
       "lastName": "Isaac",
-      "playerId": 1628371,
-      "teamId": 1610612753
+      "scrubBenchStarter": 687,
+      "primarySkill": 6067
     },
     {
       "firstName": "Wes",
       "lastName": "Iwundu",
-      "playerId": 1628411,
-      "teamId": 1610612753
+      "scrubBenchStarter": 68,
+      "primarySkill": 6067
     },
     {
       "firstName": "Jarrett",
       "lastName": "Jack",
-      "playerId": 101127,
-      "teamId": 1610612752
+      "scrubBenchStarter": 07,
+      "primarySkill": 6067
     },
     {
       "firstName": "Demetrius",
       "lastName": "Jackson",
-      "playerId": 1627743,
-      "teamId": 1610612745
+      "scrubBenchStarter": 677,
+      "primarySkill": 6067
     },
     {
       "firstName": "Frank",
       "lastName": "Jackson",
-      "playerId": 1628402,
-      "teamId": 1610612740
+      "scrubBenchStarter": 680,
+      "primarySkill": 60670
     },
     {
       "firstName": "Josh",
       "lastName": "Jackson",
-      "playerId": 1628367,
-      "teamId": 1610612756
+      "scrubBenchStarter": 6867,
+      "primarySkill": 60676
     },
     {
       "firstName": "Justin",
       "lastName": "Jackson",
-      "playerId": 1628382,
-      "teamId": 1610612758
+      "scrubBenchStarter": 688,
+      "primarySkill": 60678
     },
     {
       "firstName": "Reggie",
       "lastName": "Jackson",
-      "playerId": 202704,
-      "teamId": 1610612765
+      "scrubBenchStarter": 070,
+      "primarySkill": 60676
     },
     {
       "firstName": "LeBron",
       "lastName": "James",
-      "playerId": 2544,
-      "teamId": 1610612739
+      "scrubBenchStarter": "starter" ,
+      "primarySkill": 'LeBron'
     },
     {
       "firstName": "Mike",
       "lastName": "James",
-      "playerId": 1628455,
-      "teamId": 1610612756
+      "scrubBenchStarter": 68,
+      "primarySkill": 60676
     },
     {
       "firstName": "Al",
       "lastName": "Jefferson",
-      "playerId": 2744,
-      "teamId": 1610612754
+      "scrubBenchStarter": 7,
+      "primarySkill": 6067
     },
     {
       "firstName": "Richard",
       "lastName": "Jefferson",
-      "playerId": 2210,
-      "teamId": 1610612743
+      "scrubBenchStarter": 0,
+      "primarySkill": 6067
     },
     {
       "firstName": "Jonas",
       "lastName": "Jerebko",
-      "playerId": 201973,
-      "teamId": 1610612762
+      "scrubBenchStarter": 097,
+      "primarySkill": 60676
     },
     {
       "firstName": "Amir",
       "lastName": "Johnson",
-      "playerId": 101161,
-      "teamId": 1610612755
+      "scrubBenchStarter": 06,
+      "primarySkill": 6067
     },
     {
       "firstName": "Brice",
       "lastName": "Johnson",
-      "playerId": 1627744,
-      "teamId": 1610612746
+      "scrubBenchStarter": 677,
+      "primarySkill": 60676
     },
     {
       "firstName": "Dakari",
       "lastName": "Johnson",
-      "playerId": 1626177,
-      "teamId": 1610612760
+      "scrubBenchStarter": 6677,
+      "primarySkill": 606760
     },
     {
       "firstName": "James",
       "lastName": "Johnson",
-      "playerId": 201949,
-      "teamId": 1610612748
+      "scrubBenchStarter": 099,
+      "primarySkill": 60678
     },
     {
       "firstName": "Joe",
       "lastName": "Johnson",
-      "playerId": 2207,
-      "teamId": 1610612762
+      "scrubBenchStarter": 07,
+      "primarySkill": 60676
     },
     {
       "firstName": "Stanley",
       "lastName": "Johnson",
-      "playerId": 1626169,
-      "teamId": 1610612765
+      "scrubBenchStarter": 6669,
+      "primarySkill": 60676
     },
     {
       "firstName": "Tyler",
       "lastName": "Johnson",
-      "playerId": 204020,
-      "teamId": 1610612748
+      "scrubBenchStarter": 000,
+      "primarySkill": 60678
     },
     {
       "firstName": "Wesley",
       "lastName": "Johnson",
-      "playerId": 202325,
-      "teamId": 1610612746
+      "scrubBenchStarter": 0,
+      "primarySkill": 60676
     },
     {
       "firstName": "Nikola",
       "lastName": "Jokic",
-      "playerId": 203999,
-      "teamId": 1610612743
+      "scrubBenchStarter": 0999,
+      "primarySkill": 6067
     },
     {
       "firstName": "Damian",
       "lastName": "Jones",
-      "playerId": 1627745,
-      "teamId": 1610612744
+      "scrubBenchStarter": 677,
+      "primarySkill": 6067
     },
     {
       "firstName": "Jalen",
       "lastName": "Jones",
-      "playerId": 1627883,
-      "teamId": 1610612740
+      "scrubBenchStarter": 6788,
+      "primarySkill": 60670
     },
     {
       "firstName": "Tyus",
       "lastName": "Jones",
-      "playerId": 1626145,
-      "teamId": 1610612750
+      "scrubBenchStarter": 66,
+      "primarySkill": 60670
     },
     {
       "firstName": "Derrick",
       "lastName": "Jones Jr.",
-      "playerId": 1627884,
-      "teamId": 1610612756
+      "scrubBenchStarter": 6788,
+      "primarySkill": 60676
     },
     {
       "firstName": "DeAndre",
       "lastName": "Jordan",
-      "playerId": 201599,
-      "teamId": 1610612746
+      "scrubBenchStarter": 099,
+      "primarySkill": 60676
     },
     {
       "firstName": "Cory",
       "lastName": "Joseph",
-      "playerId": 202709,
-      "teamId": 1610612754
+      "scrubBenchStarter": 0709,
+      "primarySkill": 6067
     },
     {
       "firstName": "Frank",
       "lastName": "Kaminsky",
-      "playerId": 1626163,
-      "teamId": 1610612766
+      "scrubBenchStarter": 666,
+      "primarySkill": 606766
     },
     {
       "firstName": "Enes",
       "lastName": "Kanter",
-      "playerId": 202683,
-      "teamId": 1610612752
+      "scrubBenchStarter": 068,
+      "primarySkill": 6067
     },
     {
       "firstName": "Luke",
       "lastName": "Kennard",
-      "playerId": 1628379,
-      "teamId": 1610612765
+      "scrubBenchStarter": 6879,
+      "primarySkill": 60676
     },
     {
       "firstName": "Michael",
       "lastName": "Kidd-Gilchrist",
-      "playerId": 203077,
-      "teamId": 1610612766
+      "scrubBenchStarter": 0077,
+      "primarySkill": 606766
     },
     {
       "firstName": "Sean",
       "lastName": "Kilpatrick",
-      "playerId": 203930,
-      "teamId": 1610612751
+      "scrubBenchStarter": 090,
+      "primarySkill": 6067
     },
     {
       "firstName": "Maxi",
       "lastName": "Kleber",
-      "playerId": 1628467,
-      "teamId": 1610612742
+      "scrubBenchStarter": 6867,
+      "primarySkill": 6067
     },
     {
       "firstName": "Brandon",
       "lastName": "Knight",
-      "playerId": 202688,
-      "teamId": 1610612756
+      "scrubBenchStarter": 0688,
+      "primarySkill": 60676
     },
     {
       "firstName": "Furkan",
       "lastName": "Korkmaz",
-      "playerId": 1627788,
-      "teamId": 1610612755
+      "scrubBenchStarter": 67788,
+      "primarySkill": 6067
     },
     {
       "firstName": "Luke",
       "lastName": "Kornet",
-      "playerId": 1628436,
-      "teamId": 1610612752
+      "scrubBenchStarter": 686,
+      "primarySkill": 6067
     },
     {
       "firstName": "Kyle",
       "lastName": "Korver",
-      "playerId": 2594,
-      "teamId": 1610612739
+      "scrubBenchStarter": 9,
+      "primarySkill": 60679
     },
     {
       "firstName": "Kosta",
       "lastName": "Koufos",
-      "playerId": 201585,
-      "teamId": 1610612758
+      "scrubBenchStarter": 08,
+      "primarySkill": 60678
     },
     {
       "firstName": "Kyle",
       "lastName": "Kuzma",
-      "playerId": 1628398,
-      "teamId": 1610612747
+      "scrubBenchStarter": 6898,
+      "primarySkill": 60677
     },
     {
       "firstName": "Mindaugas",
       "lastName": "Kuzminskas",
-      "playerId": 1627851,
-      "teamId": 1610612752
+      "scrubBenchStarter": 678,
+      "primarySkill": 6067
     },
     {
       "firstName": "Zach",
       "lastName": "LaVine",
-      "playerId": 203897,
-      "teamId": 1610612741
+      "scrubBenchStarter": 0897,
+      "primarySkill": 6067
     },
     {
       "firstName": "Skal",
       "lastName": "Labissiere",
-      "playerId": 1627746,
-      "teamId": 1610612758
+      "scrubBenchStarter": 6776,
+      "primarySkill": 60678
     },
     {
       "firstName": "Jeremy",
       "lastName": "Lamb",
-      "playerId": 203087,
-      "teamId": 1610612766
+      "scrubBenchStarter": 0087,
+      "primarySkill": 606766
     },
     {
       "firstName": "Shane",
       "lastName": "Larkin",
-      "playerId": 203499,
-      "teamId": 1610612738
+      "scrubBenchStarter": 099,
+      "primarySkill": 60678
     },
     {
       "firstName": "Joffrey",
       "lastName": "Lauvergne",
-      "playerId": 203530,
-      "teamId": 1610612759
+      "scrubBenchStarter": 00,
+      "primarySkill": 60679
     },
     {
       "firstName": "Jake",
       "lastName": "Layman",
-      "playerId": 1627774,
-      "teamId": 1610612757
+      "scrubBenchStarter": 6777,
+      "primarySkill": 60677
     },
     {
       "firstName": "Caris",
       "lastName": "LeVert",
-      "playerId": 1627747,
-      "teamId": 1610612751
+      "scrubBenchStarter": 6777,
+      "primarySkill": 6067
     },
     {
       "firstName": "TJ",
       "lastName": "Leaf",
-      "playerId": 1628388,
-      "teamId": 1610612754
+      "scrubBenchStarter": 6888,
+      "primarySkill": 6067
     },
     {
       "firstName": "Courtney",
       "lastName": "Lee",
-      "playerId": 201584,
-      "teamId": 1610612752
+      "scrubBenchStarter": 08,
+      "primarySkill": 6067
     },
     {
       "firstName": "Alex",
       "lastName": "Len",
-      "playerId": 203458,
-      "teamId": 1610612756
+      "scrubBenchStarter": 08,
+      "primarySkill": 60676
     },
     {
       "firstName": "Kawhi",
       "lastName": "Leonard",
-      "playerId": 202695,
-      "teamId": 1610612759
+      "scrubBenchStarter": 069,
+      "primarySkill": 60679
     },
     {
       "firstName": "Meyers",
       "lastName": "Leonard",
-      "playerId": 203086,
-      "teamId": 1610612757
+      "scrubBenchStarter": 0086,
+      "primarySkill": 60677
     },
     {
       "firstName": "Jon",
       "lastName": "Leuer",
-      "playerId": 202720,
-      "teamId": 1610612765
+      "scrubBenchStarter": 070,
+      "primarySkill": 60676
     },
     {
       "firstName": "DeAndre",
       "lastName": "Liggins",
-      "playerId": 202732,
-      "teamId": 1610612749
+      "scrubBenchStarter": 07,
+      "primarySkill": 60679
     },
     {
       "firstName": "Damian",
       "lastName": "Lillard",
-      "playerId": 203081,
-      "teamId": 1610612757
+      "scrubBenchStarter": 008,
+      "primarySkill": 60677
     },
     {
       "firstName": "Jeremy",
       "lastName": "Lin",
-      "playerId": 202391,
-      "teamId": 1610612751
+      "scrubBenchStarter": 09,
+      "primarySkill": 6067
     },
     {
       "firstName": "Shaun",
       "lastName": "Livingston",
-      "playerId": 2733,
-      "teamId": 1610612744
+      "scrubBenchStarter": 7,
+      "primarySkill": 6067
     },
     {
       "firstName": "Kevon",
       "lastName": "Looney",
-      "playerId": 1626172,
-      "teamId": 1610612744
+      "scrubBenchStarter": 667,
+      "primarySkill": 6067
     },
     {
       "firstName": "Brook",
       "lastName": "Lopez",
-      "playerId": 201572,
-      "teamId": 1610612747
+      "scrubBenchStarter": 07,
+      "primarySkill": 60677
     },
     {
       "firstName": "Robin",
       "lastName": "Lopez",
-      "playerId": 201577,
-      "teamId": 1610612741
+      "scrubBenchStarter": 077,
+      "primarySkill": 6067
     },
     {
       "firstName": "Kevin",
       "lastName": "Love",
-      "playerId": 201567,
-      "teamId": 1610612739
+      "scrubBenchStarter": 067,
+      "primarySkill": 60679
     },
     {
       "firstName": "Kyle",
       "lastName": "Lowry",
-      "playerId": 200768,
-      "teamId": 1610612761
+      "scrubBenchStarter": 00768,
+      "primarySkill": 60676
     },
     {
       "firstName": "Timothe",
       "lastName": "Luwawu-Cabarrot",
-      "playerId": 1627789,
-      "teamId": 1610612755
+      "scrubBenchStarter": 67789,
+      "primarySkill": 6067
     },
     {
       "firstName": "Tyler",
       "lastName": "Lydon",
-      "playerId": 1628399,
-      "teamId": 1610612743
+      "scrubBenchStarter": 6899,
+      "primarySkill": 6067
     },
     {
       "firstName": "Trey",
       "lastName": "Lyles",
-      "playerId": 1626168,
-      "teamId": 1610612743
+      "scrubBenchStarter": 6668,
+      "primarySkill": 6067
     },
     {
       "firstName": "Sheldon",
       "lastName": "Mac",
-      "playerId": 1627815,
-      "teamId": 1610612764
+      "scrubBenchStarter": 678,
+      "primarySkill": 60676
     },
     {
       "firstName": "Shelvin",
       "lastName": "Mack",
-      "playerId": 202714,
-      "teamId": 1610612753
+      "scrubBenchStarter": 07,
+      "primarySkill": 6067
     },
     {
       "firstName": "Josh",
       "lastName": "Magette",
-      "playerId": 203705,
-      "teamId": 1610612737
+      "scrubBenchStarter": 070,
+      "primarySkill": 60677
     },
     {
       "firstName": "Ian",
       "lastName": "Mahinmi",
-      "playerId": 101133,
-      "teamId": 1610612764
+      "scrubBenchStarter": 0,
+      "primarySkill": 60676
     },
     {
       "firstName": "Thon",
       "lastName": "Maker",
-      "playerId": 1627748,
-      "teamId": 1610612749
+      "scrubBenchStarter": 6778,
+      "primarySkill": 60679
     },
     {
       "firstName": "Boban",
       "lastName": "Marjanovic",
-      "playerId": 1626246,
-      "teamId": 1610612765
+      "scrubBenchStarter": 666,
+      "primarySkill": 60676
     },
     {
       "firstName": "Lauri",
       "lastName": "Markkanen",
-      "playerId": 1628374,
-      "teamId": 1610612741
+      "scrubBenchStarter": 687,
+      "primarySkill": 6067
     },
     {
       "firstName": "Jarell",
       "lastName": "Martin",
-      "playerId": 1626185,
-      "teamId": 1610612763
+      "scrubBenchStarter": 668,
+      "primarySkill": 60676
     },
     {
       "firstName": "Frank",
       "lastName": "Mason",
-      "playerId": 1628412,
-      "teamId": 1610612758
+      "scrubBenchStarter": 68,
+      "primarySkill": 60678
     },
     {
       "firstName": "Mangok",
       "lastName": "Mathiang",
-      "playerId": 1628493,
-      "teamId": 1610612766
+      "scrubBenchStarter": 689,
+      "primarySkill": 606766
     },
     {
       "firstName": "Wesley",
       "lastName": "Matthews",
-      "playerId": 202083,
-      "teamId": 1610612742
+      "scrubBenchStarter": 008,
+      "primarySkill": 6067
     },
     {
       "firstName": "Luc",
       "lastName": "Mbah a Moute",
-      "playerId": 201601,
-      "teamId": 1610612745
+      "scrubBenchStarter": 060,
+      "primarySkill": 6067
     },
     {
       "firstName": "James Michael",
       "lastName": "McAdoo",
-      "playerId": 203949,
-      "teamId": 1610612755
+      "scrubBenchStarter": 099,
+      "primarySkill": 6067
     },
     {
       "firstName": "Patrick",
       "lastName": "McCaw",
-      "playerId": 1627775,
-      "teamId": 1610612744
+      "scrubBenchStarter": 6777,
+      "primarySkill": 6067
     },
     {
       "firstName": "CJ",
       "lastName": "McCollum",
-      "playerId": 203468,
-      "teamId": 1610612757
+      "scrubBenchStarter": 068,
+      "primarySkill": 60677
     },
     {
       "firstName": "T.J.",
       "lastName": "McConnell",
-      "playerId": 204456,
-      "teamId": 1610612755
+      "scrubBenchStarter": 06,
+      "primarySkill": 6067
     },
     {
       "firstName": "Chris",
       "lastName": "McCullough",
-      "playerId": 1626191,
-      "teamId": 1610612764
+      "scrubBenchStarter": 669,
+      "primarySkill": 60676
     },
     {
       "firstName": "Doug",
       "lastName": "McDermott",
-      "playerId": 203926,
-      "teamId": 1610612752
+      "scrubBenchStarter": 096,
+      "primarySkill": 6067
     },
     {
       "firstName": "JaVale",
       "lastName": "McGee",
-      "playerId": 201580,
-      "teamId": 1610612744
+      "scrubBenchStarter": 080,
+      "primarySkill": 6067
     },
     {
       "firstName": "Rodney",
       "lastName": "McGruder",
-      "playerId": 203585,
-      "teamId": 1610612748
+      "scrubBenchStarter": 08,
+      "primarySkill": 60678
     },
     {
       "firstName": "Alfonzo",
       "lastName": "McKinnie",
-      "playerId": 1628035,
-      "teamId": 1610612761
+      "scrubBenchStarter": 680,
+      "primarySkill": 60676
     },
     {
       "firstName": "Ben",
       "lastName": "McLemore",
-      "playerId": 203463,
-      "teamId": 1610612763
+      "scrubBenchStarter": 06,
+      "primarySkill": 60676
     },
     {
       "firstName": "Josh",
       "lastName": "McRoberts",
-      "playerId": 201177,
-      "teamId": 1610612742
+      "scrubBenchStarter": 077,
+      "primarySkill": 6067
     },
     {
       "firstName": "Jodie",
       "lastName": "Meeks",
-      "playerId": 201975,
-      "teamId": 1610612764
+      "scrubBenchStarter": 097,
+      "primarySkill": 60676
     },
     {
       "firstName": "Salah",
       "lastName": "Mejri",
-      "playerId": 1626257,
-      "teamId": 1610612742
+      "scrubBenchStarter": 667,
+      "primarySkill": 6067
     },
     {
       "firstName": "Jordan",
       "lastName": "Mickey",
-      "playerId": 1626175,
-      "teamId": 1610612748
+      "scrubBenchStarter": 667,
+      "primarySkill": 60678
     },
     {
       "firstName": "Khris",
       "lastName": "Middleton",
-      "playerId": 203114,
-      "teamId": 1610612749
+      "scrubBenchStarter": 0,
+      "primarySkill": 60679
     },
     {
       "firstName": "CJ",
       "lastName": "Miles",
-      "playerId": 101139,
-      "teamId": 1610612761
+      "scrubBenchStarter": 09,
+      "primarySkill": 60676
     },
     {
       "firstName": "Darius",
       "lastName": "Miller",
-      "playerId": 203121,
-      "teamId": 1610612740
+      "scrubBenchStarter": 0,
+      "primarySkill": 60670
     },
     {
       "firstName": "Malcolm",
       "lastName": "Miller",
-      "playerId": 1626259,
-      "teamId": 1610612761
+      "scrubBenchStarter": 669,
+      "primarySkill": 60676
     },
     {
       "firstName": "Patty",
       "lastName": "Mills",
-      "playerId": 201988,
-      "teamId": 1610612759
+      "scrubBenchStarter": 0988,
+      "primarySkill": 60679
     },
     {
       "firstName": "Paul",
       "lastName": "Millsap",
-      "playerId": 200794,
-      "teamId": 1610612743
+      "scrubBenchStarter": 0079,
+      "primarySkill": 6067
     },
     {
       "firstName": "Nikola",
       "lastName": "Mirotic",
-      "playerId": 202703,
-      "teamId": 1610612741
+      "scrubBenchStarter": 070,
+      "primarySkill": 6067
     },
     {
       "firstName": "Donovan",
       "lastName": "Mitchell",
-      "playerId": 1628378,
-      "teamId": 1610612762
+      "scrubBenchStarter": 6878,
+      "primarySkill": 60676
     },
     {
       "firstName": "Malik",
       "lastName": "Monk",
-      "playerId": 1628370,
-      "teamId": 1610612766
+      "scrubBenchStarter": 6870,
+      "primarySkill": 606766
     },
     {
       "firstName": "Greg",
       "lastName": "Monroe",
-      "playerId": 202328,
-      "teamId": 1610612749
+      "scrubBenchStarter": 08,
+      "primarySkill": 60679
     },
     {
       "firstName": "Luis",
       "lastName": "Montero",
-      "playerId": 1626242,
-      "teamId": 1610612765
+      "scrubBenchStarter": 66,
+      "primarySkill": 60676
     },
     {
       "firstName": "E'Twaun",
       "lastName": "Moore",
-      "playerId": 202734,
-      "teamId": 1610612740
+      "scrubBenchStarter": 07,
+      "primarySkill": 60670
     },
     {
       "firstName": "Eric",
       "lastName": "Moreland",
-      "playerId": 203961,
-      "teamId": 1610612765
+      "scrubBenchStarter": 096,
+      "primarySkill": 60676
     },
     {
       "firstName": "Marcus",
       "lastName": "Morris",
-      "playerId": 202694,
-      "teamId": 1610612738
+      "scrubBenchStarter": 069,
+      "primarySkill": 60678
     },
     {
       "firstName": "Markieff",
       "lastName": "Morris",
-      "playerId": 202693,
-      "teamId": 1610612764
+      "scrubBenchStarter": 069,
+      "primarySkill": 60676
     },
     {
       "firstName": "Monte",
       "lastName": "Morris",
-      "playerId": 1628420,
-      "teamId": 1610612743
+      "scrubBenchStarter": 680,
+      "primarySkill": 6067
     },
     {
       "firstName": "Johnathan",
       "lastName": "Motley",
-      "playerId": 1628405,
-      "teamId": 1610612742
+      "scrubBenchStarter": 680,
+      "primarySkill": 6067
     },
     {
       "firstName": "Timofey",
       "lastName": "Mozgov",
-      "playerId": 202389,
-      "teamId": 1610612751
+      "scrubBenchStarter": 089,
+      "primarySkill": 6067
     },
     {
       "firstName": "Emmanuel",
       "lastName": "Mudiay",
-      "playerId": 1626144,
-      "teamId": 1610612743
+      "scrubBenchStarter": 66,
+      "primarySkill": 6067
     },
     {
       "firstName": "Shabazz",
       "lastName": "Muhammad",
-      "playerId": 203498,
-      "teamId": 1610612750
+      "scrubBenchStarter": 098,
+      "primarySkill": 60670
     },
     {
       "firstName": "Dejounte",
       "lastName": "Murray",
-      "playerId": 1627749,
-      "teamId": 1610612759
+      "scrubBenchStarter": 6779,
+      "primarySkill": 60679
     },
     {
       "firstName": "Jamal",
       "lastName": "Murray",
-      "playerId": 1627750,
-      "teamId": 1610612743
+      "scrubBenchStarter": 6770,
+      "primarySkill": 6067
     },
     {
       "firstName": "Mike",
       "lastName": "Muscala",
-      "playerId": 203488,
-      "teamId": 1610612737
+      "scrubBenchStarter": 088,
+      "primarySkill": 60677
     },
     {
       "firstName": "Abdel",
       "lastName": "Nader",
-      "playerId": 1627846,
-      "teamId": 1610612738
+      "scrubBenchStarter": 6786,
+      "primarySkill": 60678
     },
     {
       "firstName": "Larry",
       "lastName": "Nance Jr.",
-      "playerId": 1626204,
-      "teamId": 1610612747
+      "scrubBenchStarter": 660,
+      "primarySkill": 60677
     },
     {
       "firstName": "Shabazz",
       "lastName": "Napier",
-      "playerId": 203894,
-      "teamId": 1610612757
+      "scrubBenchStarter": 089,
+      "primarySkill": 60677
     },
     {
       "firstName": "Jameer",
       "lastName": "Nelson",
-      "playerId": 2749,
-      "teamId": 1610612740
+      "scrubBenchStarter": 79,
+      "primarySkill": 60670
     },
     {
       "firstName": "Raul",
       "lastName": "Neto",
-      "playerId": 203526,
-      "teamId": 1610612762
+      "scrubBenchStarter": 06,
+      "primarySkill": 60676
     },
     {
       "firstName": "Joakim",
       "lastName": "Noah",
-      "playerId": 201149,
-      "teamId": 1610612752
+      "scrubBenchStarter": 09,
+      "primarySkill": 6067
     },
     {
       "firstName": "Nerlens",
       "lastName": "Noel",
-      "playerId": 203457,
-      "teamId": 1610612742
+      "scrubBenchStarter": 07,
+      "primarySkill": 6067
     },
     {
       "firstName": "Lucas",
       "lastName": "Nogueira",
-      "playerId": 203512,
-      "teamId": 1610612761
+      "scrubBenchStarter": 0,
+      "primarySkill": 60676
     },
     {
       "firstName": "Dirk",
       "lastName": "Nowitzki",
-      "playerId": 1717,
-      "teamId": 1610612742
+      "scrubBenchStarter": 77,
+      "primarySkill": 6067
     },
     {
       "firstName": "Frank",
       "lastName": "Ntilikina",
-      "playerId": 1628373,
-      "teamId": 1610612752
+      "scrubBenchStarter": 687,
+      "primarySkill": 6067
     },
     {
       "firstName": "Jusuf",
       "lastName": "Nurkic",
-      "playerId": 203994,
-      "teamId": 1610612757
+      "scrubBenchStarter": 099,
+      "primarySkill": 60677
     },
     {
       "firstName": "David",
       "lastName": "Nwaba",
-      "playerId": 1628021,
-      "teamId": 1610612741
+      "scrubBenchStarter": 680,
+      "primarySkill": 6067
     },
     {
       "firstName": "Johnny",
       "lastName": "O'Bryant III",
-      "playerId": 203948,
-      "teamId": 1610612766
+      "scrubBenchStarter": 098,
+      "primarySkill": 606766
     },
     {
       "firstName": "Royce",
       "lastName": "O'Neale",
-      "playerId": 1626220,
-      "teamId": 1610612762
+      "scrubBenchStarter": 660,
+      "primarySkill": 60676
     },
     {
       "firstName": "Kyle",
       "lastName": "O'Quinn",
-      "playerId": 203124,
-      "teamId": 1610612752
+      "scrubBenchStarter": 0,
+      "primarySkill": 6067
     },
     {
       "firstName": "Semi",
       "lastName": "Ojeleye",
-      "playerId": 1628400,
-      "teamId": 1610612738
+      "scrubBenchStarter": 6800,
+      "primarySkill": 60678
     },
     {
       "firstName": "Jahlil",
       "lastName": "Okafor",
-      "playerId": 1626143,
-      "teamId": 1610612755
+      "scrubBenchStarter": 66,
+      "primarySkill": 6067
     },
     {
       "firstName": "Victor",
       "lastName": "Oladipo",
-      "playerId": 203506,
-      "teamId": 1610612754
+      "scrubBenchStarter": 006,
+      "primarySkill": 6067
     },
     {
       "firstName": "Kelly",
       "lastName": "Olynyk",
-      "playerId": 203482,
-      "teamId": 1610612748
+      "scrubBenchStarter": 08,
+      "primarySkill": 60678
     },
     {
       "firstName": "Chinanu",
       "lastName": "Onuaku",
-      "playerId": 1627778,
-      "teamId": 1610612745
+      "scrubBenchStarter": 67778,
+      "primarySkill": 6067
     },
     {
       "firstName": "Cedi",
       "lastName": "Osman",
-      "playerId": 1626224,
-      "teamId": 1610612739
+      "scrubBenchStarter": 66,
+      "primarySkill": 60679
     },
     {
       "firstName": "Yakuba",
       "lastName": "Ouattara",
-      "playerId": 1628473,
-      "teamId": 1610612751
+      "scrubBenchStarter": 687,
+      "primarySkill": 6067
     },
     {
       "firstName": "Kelly",
       "lastName": "Oubre Jr.",
-      "playerId": 1626162,
-      "teamId": 1610612764
+      "scrubBenchStarter": 666,
+      "primarySkill": 60676
     },
     {
       "firstName": "Zaza",
       "lastName": "Pachulia",
-      "playerId": 2585,
-      "teamId": 1610612744
+      "scrubBenchStarter": 8,
+      "primarySkill": 6067
     },
     {
       "firstName": "Marcus",
       "lastName": "Paige",
-      "playerId": 1627779,
-      "teamId": 1610612766
+      "scrubBenchStarter": 67779,
+      "primarySkill": 606766
     },
     {
       "firstName": "Georgios",
       "lastName": "Papagiannis",
-      "playerId": 1627834,
-      "teamId": 1610612758
+      "scrubBenchStarter": 678,
+      "primarySkill": 60678
     },
     {
       "firstName": "Jabari",
       "lastName": "Parker",
-      "playerId": 203953,
-      "teamId": 1610612749
+      "scrubBenchStarter": 09,
+      "primarySkill": 60679
     },
     {
       "firstName": "Tony",
       "lastName": "Parker",
-      "playerId": 2225,
-      "teamId": 1610612759
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'crafty'
     },
     {
       "firstName": "Chandler",
       "lastName": "Parsons",
-      "playerId": 202718,
-      "teamId": 1610612763
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'badknees'
     },
     {
       "firstName": "Patrick",
       "lastName": "Patterson",
-      "playerId": 202335,
-      "teamId": 1610612760
+      "scrubBenchStarter": 'bench',
+      "primarySkill": 'postup'
     },
     {
       "firstName": "Justin",
       "lastName": "Patton",
-      "playerId": 1628383,
-      "teamId": 1610612750
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'whoisthis'
     },
     {
       "firstName": "Brandon",
       "lastName": "Paul",
-      "playerId": 203464,
-      "teamId": 1610612759
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'paulwall'
     },
     {
       "firstName": "Chris",
       "lastName": "Paul",
-      "playerId": 101108,
-      "teamId": 1610612745
+      "scrubBenchStarter": 'starter',
+      "primarySkill": 'ankle'
     },
     {
       "firstName": "Adreian",
       "lastName": "Payne",
-      "playerId": 203940,
-      "teamId": 1610612753
+      "scrubBenchStarter": 'scrub',
+      "primarySkill": 'maxpayne'
     },
     {
       "firstName": "Cameron",
       "lastName": "Payne",
-      "playerId": 1626166,
-      "teamId": 1610612741
+      "scrubBenchStarter": 6666,
+      "primarySkill": 6067
     },
     {
       "firstName": "Elfrid",
       "lastName": "Payton",
-      "playerId": 203901,
-      "teamId": 1610612753
+      "scrubBenchStarter": 090,
+      "primarySkill": 6067
     },
     {
       "firstName": "Gary",
       "lastName": "Payton II",
-      "playerId": 1627780,
-      "teamId": 1610612749
+      "scrubBenchStarter": 67780,
+      "primarySkill": 60679
     },
     {
       "firstName": "London",
       "lastName": "Perrantes",
-      "playerId": 1628506,
-      "teamId": 1610612739
+      "scrubBenchStarter": 6806,
+      "primarySkill": 60679
     },
     {
       "firstName": "Alec",
       "lastName": "Peters",
-      "playerId": 1628409,
-      "teamId": 1610612756
+      "scrubBenchStarter": 6809,
+      "primarySkill": 60676
     },
     {
       "firstName": "Mason",
       "lastName": "Plumlee",
-      "playerId": 203486,
-      "teamId": 1610612743
+      "scrubBenchStarter": 086,
+      "primarySkill": 6067
     },
     {
       "firstName": "Miles",
       "lastName": "Plumlee",
-      "playerId": 203101,
-      "teamId": 1610612737
+      "scrubBenchStarter": 00,
+      "primarySkill": 60677
     },
     {
       "firstName": "Jakob",
       "lastName": "Poeltl",
-      "playerId": 1627751,
-      "teamId": 1610612761
+      "scrubBenchStarter": 677,
+      "primarySkill": 60676
     },
     {
       "firstName": "Quincy",
       "lastName": "Pondexter",
-      "playerId": 202347,
-      "teamId": 1610612741
+      "scrubBenchStarter": 07,
+      "primarySkill": 6067
     },
     {
       "firstName": "Otto",
       "lastName": "Porter Jr.",
-      "playerId": 203490,
-      "teamId": 1610612764
+      "scrubBenchStarter": 090,
+      "primarySkill": 60676
     },
     {
       "firstName": "Bobby",
       "lastName": "Portis",
-      "playerId": 1626171,
-      "teamId": 1610612741
+      "scrubBenchStarter": 667,
+      "primarySkill": 6067
     },
     {
       "firstName": "Kristaps",
       "lastName": "Porzingis",
-      "playerId": 204001,
-      "teamId": 1610612752
+      "scrubBenchStarter": 000,
+      "primarySkill": 6067
     },
     {
       "firstName": "Dwight",
       "lastName": "Powell",
-      "playerId": 203939,
-      "teamId": 1610612742
+      "scrubBenchStarter": 099,
+      "primarySkill": 6067
     },
     {
       "firstName": "Norman",
       "lastName": "Powell",
-      "playerId": 1626181,
-      "teamId": 1610612761
+      "scrubBenchStarter": 668,
+      "primarySkill": 60676
     },
     {
       "firstName": "Alex",
       "lastName": "Poythress",
-      "playerId": 1627816,
-      "teamId": 1610612754
+      "scrubBenchStarter": 6786,
+      "primarySkill": 6067
     },
     {
       "firstName": "Taurean",
       "lastName": "Prince",
-      "playerId": 1627752,
-      "teamId": 1610612737
+      "scrubBenchStarter": 677,
+      "primarySkill": 60677
     },
     {
       "firstName": "Jacob",
       "lastName": "Pullen",
-      "playerId": 1626643,
-      "teamId": 1610612755
+      "scrubBenchStarter": 666,
+      "primarySkill": 6067
     },
     {
       "firstName": "Ivan",
       "lastName": "Rabb",
-      "playerId": 1628397,
-      "teamId": 1610612763
+      "scrubBenchStarter": 6897,
+      "primarySkill": 60676
     },
     {
       "firstName": "Julius",
       "lastName": "Randle",
-      "playerId": 203944,
-      "teamId": 1610612747
+      "scrubBenchStarter": 09,
+      "primarySkill": 60677
     },
     {
       "firstName": "Zach",
       "lastName": "Randolph",
-      "playerId": 2216,
-      "teamId": 1610612758
+      "scrubBenchStarter": 6,
+      "primarySkill": 60678
     },
     {
       "firstName": "JJ",
       "lastName": "Redick",
-      "playerId": 200755,
-      "teamId": 1610612755
+      "scrubBenchStarter": 007,
+      "primarySkill": 6067
     },
     {
       "firstName": "Davon",
       "lastName": "Reed",
-      "playerId": 1628432,
-      "teamId": 1610612756
+      "scrubBenchStarter": 68,
+      "primarySkill": 60676
     },
     {
       "firstName": "Willie",
       "lastName": "Reed",
-      "playerId": 203186,
-      "teamId": 1610612746
+      "scrubBenchStarter": 086,
+      "primarySkill": 60676
     },
     {
       "firstName": "Josh",
       "lastName": "Richardson",
-      "playerId": 1626196,
-      "teamId": 1610612748
+      "scrubBenchStarter": 6696,
+      "primarySkill": 60678
     },
     {
       "firstName": "Malachi",
       "lastName": "Richardson",
-      "playerId": 1627781,
-      "teamId": 1610612758
+      "scrubBenchStarter": 6778,
+      "primarySkill": 60678
     },
     {
       "firstName": "Austin",
       "lastName": "Rivers",
-      "playerId": 203085,
-      "teamId": 1610612746
+      "scrubBenchStarter": 008,
+      "primarySkill": 60676
     },
     {
       "firstName": "Andre",
       "lastName": "Roberson",
-      "playerId": 203460,
-      "teamId": 1610612760
+      "scrubBenchStarter": 060,
+      "primarySkill": 606760
     },
     {
       "firstName": "Devin",
       "lastName": "Robinson",
-      "playerId": 1628421,
-      "teamId": 1610612764
+      "scrubBenchStarter": 68,
+      "primarySkill": 60676
     },
     {
       "firstName": "Glenn",
       "lastName": "Robinson III",
-      "playerId": 203922,
-      "teamId": 1610612754
+      "scrubBenchStarter": 09,
+      "primarySkill": 6067
     },
     {
       "firstName": "Rajon",
       "lastName": "Rondo",
-      "playerId": 200765,
-      "teamId": 1610612740
+      "scrubBenchStarter": 0076,
+      "primarySkill": 60670
     },
     {
       "firstName": "Derrick",
       "lastName": "Rose",
-      "playerId": 201565,
-      "teamId": 1610612739
+      "scrubBenchStarter": 06,
+      "primarySkill": 60679
     },
     {
       "firstName": "Terrence",
       "lastName": "Ross",
-      "playerId": 203082,
-      "teamId": 1610612753
+      "scrubBenchStarter": 008,
+      "primarySkill": 6067
     },
     {
       "firstName": "Terry",
       "lastName": "Rozier",
-      "playerId": 1626179,
-      "teamId": 1610612738
+      "scrubBenchStarter": 6679,
+      "primarySkill": 60678
     },
     {
       "firstName": "Ricky",
       "lastName": "Rubio",
-      "playerId": 201937,
-      "teamId": 1610612762
+      "scrubBenchStarter": 097,
+      "primarySkill": 60676
     },
     {
       "firstName": "D'Angelo",
       "lastName": "Russell",
-      "playerId": 1626156,
-      "teamId": 1610612751
+      "scrubBenchStarter": 666,
+      "primarySkill": 6067
     },
     {
       "firstName": "Domantas",
       "lastName": "Sabonis",
-      "playerId": 1627734,
-      "teamId": 1610612754
+      "scrubBenchStarter": 677,
+      "primarySkill": 6067
     },
     {
       "firstName": "JaKarr",
       "lastName": "Sampson",
-      "playerId": 203960,
-      "teamId": 1610612758
+      "scrubBenchStarter": 0960,
+      "primarySkill": 60678
     },
     {
       "firstName": "Dario",
       "lastName": "Saric",
-      "playerId": 203967,
-      "teamId": 1610612755
+      "scrubBenchStarter": 0967,
+      "primarySkill": 6067
     },
     {
       "firstName": "Tomas",
       "lastName": "Satoransky",
-      "playerId": 203107,
-      "teamId": 1610612764
+      "scrubBenchStarter": 007,
+      "primarySkill": 60676
     },
     {
       "firstName": "Dennis",
       "lastName": "Schroder",
-      "playerId": 203471,
-      "teamId": 1610612737
+      "scrubBenchStarter": 07,
+      "primarySkill": 60677
     },
     {
       "firstName": "Mike",
       "lastName": "Scott",
-      "playerId": 203118,
-      "teamId": 1610612764
+      "scrubBenchStarter": 08,
+      "primarySkill": 60676
     },
     {
       "firstName": "Thabo",
       "lastName": "Sefolosha",
-      "playerId": 200757,
-      "teamId": 1610612762
+      "scrubBenchStarter": 0077,
+      "primarySkill": 60676
     },
     {
       "firstName": "Wayne",
       "lastName": "Selden",
-      "playerId": 1627782,
-      "teamId": 1610612763
+      "scrubBenchStarter": 6778,
+      "primarySkill": 60676
     },
     {
       "firstName": "Ramon",
       "lastName": "Sessions",
-      "playerId": 201196,
-      "teamId": 1610612752
+      "scrubBenchStarter": 096,
+      "primarySkill": 6067
     },
     {
       "firstName": "Iman",
       "lastName": "Shumpert",
-      "playerId": 202697,
-      "teamId": 1610612739
+      "scrubBenchStarter": 0697,
+      "primarySkill": 60679
     },
     {
       "firstName": "Pascal",
       "lastName": "Siakam",
-      "playerId": 1627783,
-      "teamId": 1610612761
+      "scrubBenchStarter": 6778,
+      "primarySkill": 60676
     },
     {
       "firstName": "Ben",
       "lastName": "Simmons",
-      "playerId": 1627732,
-      "teamId": 1610612755
+      "scrubBenchStarter": 677,
+      "primarySkill": 6067
     },
     {
       "firstName": "Jonathon",
       "lastName": "Simmons",
-      "playerId": 203613,
-      "teamId": 1610612753
+      "scrubBenchStarter": 06,
+      "primarySkill": 6067
     },
     {
       "firstName": "Kobi",
       "lastName": "Simmons",
-      "playerId": 1628424,
-      "teamId": 1610612763
+      "scrubBenchStarter": 68,
+      "primarySkill": 60676
     },
     {
       "firstName": "Kyle",
       "lastName": "Singler",
-      "playerId": 202713,
-      "teamId": 1610612760
+      "scrubBenchStarter": 07,
+      "primarySkill": 606760
     },
     {
       "firstName": "Marcus",
       "lastName": "Smart",
-      "playerId": 203935,
-      "teamId": 1610612738
+      "scrubBenchStarter": 09,
+      "primarySkill": 60678
     },
     {
       "firstName": "Ish",
       "lastName": "Smith",
-      "playerId": 202397,
-      "teamId": 1610612765
+      "scrubBenchStarter": 097,
+      "primarySkill": 60676
     },
     {
       "firstName": "JR",
       "lastName": "Smith",
-      "playerId": 2747,
-      "teamId": 1610612739
+      "scrubBenchStarter": 77,
+      "primarySkill": 60679
     },
     {
       "firstName": "Jason",
       "lastName": "Smith",
-      "playerId": 201160,
-      "teamId": 1610612764
+      "scrubBenchStarter": 060,
+      "primarySkill": 60676
     },
     {
       "firstName": "Dennis",
       "lastName": "Smith Jr.",
-      "playerId": 1628372,
-      "teamId": 1610612742
+      "scrubBenchStarter": 687,
+      "primarySkill": 6067
     },
     {
       "firstName": "Tony",
       "lastName": "Snell",
-      "playerId": 203503,
-      "teamId": 1610612749
+      "scrubBenchStarter": 00,
+      "primarySkill": 60679
     },
     {
       "firstName": "Marreese",
       "lastName": "Speights",
-      "playerId": 201578,
-      "teamId": 1610612753
+      "scrubBenchStarter": 078,
+      "primarySkill": 6067
     },
     {
       "firstName": "Nik",
       "lastName": "Stauskas",
-      "playerId": 203917,
-      "teamId": 1610612755
+      "scrubBenchStarter": 097,
+      "primarySkill": 6067
     },
     {
       "firstName": "Lance",
       "lastName": "Stephenson",
-      "playerId": 202362,
-      "teamId": 1610612754
+      "scrubBenchStarter": 06,
+      "primarySkill": 6067
     },
     {
       "firstName": "Julyan",
       "lastName": "Stone",
-      "playerId": 202933,
-      "teamId": 1610612766
+      "scrubBenchStarter": 09,
+      "primarySkill": 606766
     },
     {
       "firstName": "Edmond",
       "lastName": "Sumner",
-      "playerId": 1628410,
-      "teamId": 1610612754
+      "scrubBenchStarter": 680,
+      "primarySkill": 6067
     },
     {
       "firstName": "Caleb",
       "lastName": "Swanigan",
-      "playerId": 1628403,
-      "teamId": 1610612757
+      "scrubBenchStarter": 680,
+      "primarySkill": 60677
     },
     {
       "firstName": "Jayson",
       "lastName": "Tatum",
-      "playerId": 1628369,
-      "teamId": 1610612738
+      "scrubBenchStarter": 6869,
+      "primarySkill": 60678
     },
     {
       "firstName": "Isaiah",
       "lastName": "Taylor",
-      "playerId": 1627819,
-      "teamId": 1610612737
+      "scrubBenchStarter": 6789,
+      "primarySkill": 60677
     },
     {
       "firstName": "Jeff",
       "lastName": "Teague",
-      "playerId": 201952,
-      "teamId": 1610612750
+      "scrubBenchStarter": 09,
+      "primarySkill": 60670
     },
     {
       "firstName": "Mirza",
       "lastName": "Teletovic",
-      "playerId": 203141,
-      "teamId": 1610612749
+      "scrubBenchStarter": 0,
+      "primarySkill": 60679
     },
     {
       "firstName": "Garrett",
       "lastName": "Temple",
-      "playerId": 202066,
-      "teamId": 1610612758
+      "scrubBenchStarter": 0066,
+      "primarySkill": 60678
     },
     {
       "firstName": "Milos",
       "lastName": "Teodosic",
-      "playerId": 1628462,
-      "teamId": 1610612746
+      "scrubBenchStarter": 686,
+      "primarySkill": 60676
     },
     {
       "firstName": "Jason",
       "lastName": "Terry",
-      "playerId": 1891,
-      "teamId": 1610612749
+      "scrubBenchStarter": 89,
+      "primarySkill": 60679
     },
     {
       "firstName": "Daniel",
       "lastName": "Theis",
-      "playerId": 1628464,
-      "teamId": 1610612738
+      "scrubBenchStarter": 686,
+      "primarySkill": 60678
     },
     {
       "firstName": "Isaiah",
       "lastName": "Thomas",
-      "playerId": 202738,
-      "teamId": 1610612739
+      "scrubBenchStarter": 078,
+      "primarySkill": 60679
     },
     {
       "firstName": "Lance",
       "lastName": "Thomas",
-      "playerId": 202498,
-      "teamId": 1610612752
+      "scrubBenchStarter": 098,
+      "primarySkill": 6067
     },
     {
       "firstName": "Klay",
       "lastName": "Thompson",
-      "playerId": 202691,
-      "teamId": 1610612744
+      "scrubBenchStarter": 069,
+      "primarySkill": 6067
     },
     {
       "firstName": "Tristan",
       "lastName": "Thompson",
-      "playerId": 202684,
-      "teamId": 1610612739
+      "scrubBenchStarter": 068,
+      "primarySkill": 60679
     },
     {
       "firstName": "Sindarius",
       "lastName": "Thornwell",
-      "playerId": 1628414,
-      "teamId": 1610612746
+      "scrubBenchStarter": 68,
+      "primarySkill": 60676
     },
     {
       "firstName": "Anthony",
       "lastName": "Tolliver",
-      "playerId": 201229,
-      "teamId": 1610612765
+      "scrubBenchStarter": 09,
+      "primarySkill": 60676
     },
     {
       "firstName": "Karl-Anthony",
       "lastName": "Towns",
-      "playerId": 1626157,
-      "teamId": 1610612750
+      "scrubBenchStarter": 667,
+      "primarySkill": 60670
     },
     {
       "firstName": "PJ",
       "lastName": "Tucker",
-      "playerId": 200782,
-      "teamId": 1610612745
+      "scrubBenchStarter": 0078,
+      "primarySkill": 6067
     },
     {
       "firstName": "Evan",
       "lastName": "Turner",
-      "playerId": 202323,
-      "teamId": 1610612757
+      "scrubBenchStarter": 0,
+      "primarySkill": 60677
     },
     {
       "firstName": "Myles",
       "lastName": "Turner",
-      "playerId": 1626167,
-      "teamId": 1610612754
+      "scrubBenchStarter": 6667,
+      "primarySkill": 6067
     },
     {
       "firstName": "Ekpe",
       "lastName": "Udoh",
-      "playerId": 202327,
-      "teamId": 1610612762
+      "scrubBenchStarter": 07,
+      "primarySkill": 60676
     },
     {
       "firstName": "Tyler",
       "lastName": "Ulis",
-      "playerId": 1627755,
-      "teamId": 1610612756
+      "scrubBenchStarter": 677,
+      "primarySkill": 60676
     },
     {
       "firstName": "Jonas",
       "lastName": "Valanciunas",
-      "playerId": 202685,
-      "teamId": 1610612761
+      "scrubBenchStarter": 068,
+      "primarySkill": 60676
     },
     {
       "firstName": "Denzel",
       "lastName": "Valentine",
-      "playerId": 1627756,
-      "teamId": 1610612741
+      "scrubBenchStarter": 6776,
+      "primarySkill": 6067
     },
     {
       "firstName": "Fred",
       "lastName": "VanVleet",
-      "playerId": 1627832,
-      "teamId": 1610612761
+      "scrubBenchStarter": 678,
+      "primarySkill": 60676
     },
     {
       "firstName": "Rashad",
       "lastName": "Vaughn",
-      "playerId": 1626173,
-      "teamId": 1610612749
+      "scrubBenchStarter": 667,
+      "primarySkill": 60679
     },
     {
       "firstName": "Noah",
       "lastName": "Vonleh",
-      "playerId": 203943,
-      "teamId": 1610612757
+      "scrubBenchStarter": 09,
+      "primarySkill": 60677
     },
     {
       "firstName": "Nikola",
       "lastName": "Vucevic",
-      "playerId": 202696,
-      "teamId": 1610612753
+      "scrubBenchStarter": 0696,
+      "primarySkill": 6067
     },
     {
       "firstName": "Dwyane",
       "lastName": "Wade",
-      "playerId": 2548,
-      "teamId": 1610612739
+      "scrubBenchStarter": 8,
+      "primarySkill": 60679
     },
     {
       "firstName": "Dion",
       "lastName": "Waiters",
-      "playerId": 203079,
-      "teamId": 1610612748
+      "scrubBenchStarter": 0079,
+      "primarySkill": 60678
     },
     {
       "firstName": "Kemba",
       "lastName": "Walker",
-      "playerId": 202689,
-      "teamId": 1610612766
+      "scrubBenchStarter": 0689,
+      "primarySkill": 606766
     },
     {
       "firstName": "John",
       "lastName": "Wall",
-      "playerId": 202322,
-      "teamId": 1610612764
+      "scrubBenchStarter": 0,
+      "primarySkill": 60676
     },
     {
       "firstName": "Derrick",
       "lastName": "Walton Jr.",
-      "playerId": 1628476,
-      "teamId": 1610612748
+      "scrubBenchStarter": 6876,
+      "primarySkill": 60678
     },
     {
       "firstName": "TJ",
       "lastName": "Warren",
-      "playerId": 203933,
-      "teamId": 1610612756
+      "scrubBenchStarter": 09,
+      "primarySkill": 60676
     },
     {
       "firstName": "David",
       "lastName": "West",
-      "playerId": 2561,
-      "teamId": 1610612744
+      "scrubBenchStarter": 6,
+      "primarySkill": 6067
     },
     {
       "firstName": "Russell",
       "lastName": "Westbrook",
-      "playerId": 201566,
-      "teamId": 1610612760
+      "scrubBenchStarter": 066,
+      "primarySkill": 606760
     },
     {
       "firstName": "Derrick",
       "lastName": "White",
-      "playerId": 1628401,
-      "teamId": 1610612759
+      "scrubBenchStarter": 680,
+      "primarySkill": 60679
     },
     {
       "firstName": "Okaro",
       "lastName": "White",
-      "playerId": 1627855,
-      "teamId": 1610612748
+      "scrubBenchStarter": 678,
+      "primarySkill": 60678
     },
     {
       "firstName": "Isaiah",
       "lastName": "Whitehead",
-      "playerId": 1627785,
-      "teamId": 1610612751
+      "scrubBenchStarter": 6778,
+      "primarySkill": 6067
     },
     {
       "firstName": "Hassan",
       "lastName": "Whiteside",
-      "playerId": 202355,
-      "teamId": 1610612748
+      "scrubBenchStarter": 0,
+      "primarySkill": 60678
     },
     {
       "firstName": "Andrew",
       "lastName": "Wiggins",
-      "playerId": 203952,
-      "teamId": 1610612750
+      "scrubBenchStarter": 09,
+      "primarySkill": 60670
     },
     {
       "firstName": "CJ",
       "lastName": "Wilcox",
-      "playerId": 203912,
-      "teamId": 1610612757
+      "scrubBenchStarter": 09,
+      "primarySkill": 60677
     },
     {
       "firstName": "Jacob",
       "lastName": "Wiley",
-      "playerId": 1628451,
-      "teamId": 1610612751
+      "scrubBenchStarter": 68,
+      "primarySkill": 6067
     },
     {
       "firstName": "Damien",
       "lastName": "Wilkins",
-      "playerId": 2863,
-      "teamId": 1610612754
+      "scrubBenchStarter": 86,
+      "primarySkill": 6067
     },
     {
       "firstName": "Alan",
       "lastName": "Williams",
-      "playerId": 1626210,
-      "teamId": 1610612756
+      "scrubBenchStarter": 660,
+      "primarySkill": 60676
     },
     {
       "firstName": "C.J.",
       "lastName": "Williams",
-      "playerId": 203710,
-      "teamId": 1610612746
+      "scrubBenchStarter": 070,
+      "primarySkill": 60676
     },
     {
       "firstName": "Lou",
       "lastName": "Williams",
-      "playerId": 101150,
-      "teamId": 1610612746
+      "scrubBenchStarter": 00,
+      "primarySkill": 60676
     },
     {
       "firstName": "Marvin",
       "lastName": "Williams",
-      "playerId": 101107,
-      "teamId": 1610612766
+      "scrubBenchStarter": 007,
+      "primarySkill": 606766
     },
     {
       "firstName": "Troy",
       "lastName": "Williams",
-      "playerId": 1627786,
-      "teamId": 1610612745
+      "scrubBenchStarter": 67786,
+      "primarySkill": 6067
     },
     {
       "firstName": "Matt",
       "lastName": "Williams Jr.",
-      "playerId": 1628475,
-      "teamId": 1610612748
+      "scrubBenchStarter": 687,
+      "primarySkill": 60678
     },
     {
       "firstName": "D.J.",
       "lastName": "Wilson",
-      "playerId": 1628391,
-      "teamId": 1610612749
+      "scrubBenchStarter": 689,
+      "primarySkill": 60679
     },
     {
       "firstName": "Jamil",
       "lastName": "Wilson",
-      "playerId": 203966,
-      "teamId": 1610612746
+      "scrubBenchStarter": 0966,
+      "primarySkill": 60676
     },
     {
       "firstName": "Justise",
       "lastName": "Winslow",
-      "playerId": 1626159,
-      "teamId": 1610612748
+      "scrubBenchStarter": 669,
+      "primarySkill": 60678
     },
     {
       "firstName": "Jeff",
       "lastName": "Withey",
-      "playerId": 203481,
-      "teamId": 1610612742
+      "scrubBenchStarter": 08,
+      "primarySkill": 6067
     },
     {
       "firstName": "Nate",
       "lastName": "Wolters",
-      "playerId": 203489,
-      "teamId": 1610612762
+      "scrubBenchStarter": 089,
+      "primarySkill": 60676
     },
     {
       "firstName": "Brandan",
       "lastName": "Wright",
-      "playerId": 201148,
-      "teamId": 1610612763
+      "scrubBenchStarter": 08,
+      "primarySkill": 60676
     },
     {
       "firstName": "Delon",
       "lastName": "Wright",
-      "playerId": 1626153,
-      "teamId": 1610612761
+      "scrubBenchStarter": 66,
+      "primarySkill": 60676
     },
     {
       "firstName": "Guerschon",
       "lastName": "Yabusele",
-      "playerId": 1627824,
-      "teamId": 1610612738
+      "scrubBenchStarter": 678,
+      "primarySkill": 60678
     },
     {
       "firstName": "Joe",
       "lastName": "Young",
-      "playerId": 1626202,
-      "teamId": 1610612754
+      "scrubBenchStarter": 660,
+      "primarySkill": 6067
     },
     {
       "firstName": "Mike",
       "lastName": "Young",
-      "playerId": 1628454,
-      "teamId": 1610612764
+      "scrubBenchStarter": 68,
+      "primarySkill": 60676
     },
     {
       "firstName": "Nick",
       "lastName": "Young",
-      "playerId": 201156,
-      "teamId": 1610612744
+      "scrubBenchStarter": 06,
+      "primarySkill": 6067
     },
     {
       "firstName": "Thaddeus",
       "lastName": "Young",
-      "playerId": 201152,
-      "teamId": 1610612754
+      "scrubBenchStarter": 0,
+      "primarySkill": 6067
     },
     {
       "firstName": "Cody",
       "lastName": "Zeller",
-      "playerId": 203469,
-      "teamId": 1610612766
+      "scrubBenchStarter": 069,
+      "primarySkill": 606766
     },
     {
       "firstName": "Tyler",
       "lastName": "Zeller",
-      "playerId": 203092,
-      "teamId": 1610612751
+      "scrubBenchStarter": 009,
+      "primarySkill": 6067
     },
     {
       "firstName": "Zhou Qi",
       "lastName": "",
-      "playerId": 1627753,
-      "teamId": 1610612745
+      "scrubBenchStarter": 677,
+      "primarySkill": 6067
     },
     {
       "firstName": "Paul",
       "lastName": "Zipser",
-      "playerId": 1627835,
-      "teamId": 1610612741
+      "scrubBenchStarter": 678,
+      "primarySkill": 6067
     },
     {
       "firstName": "Ante",
       "lastName": "Zizic",
-      "playerId": 1627790,
-      "teamId": 1610612739
+      "scrubBenchStarter": 67790,
+      "primarySkill": 60679
     },
     {
       "firstName": "Ivica",
       "lastName": "Zubac",
-      "playerId": 1627826,
-      "teamId": 1610612747
+      "scrubBenchStarter": 6786,
+      "primarySkill": 60677
     }
   ]
 
   $('button').click(doSomething)
 
-  function doSomething() {
+  function doSomething(event) {
+    event.preventDefault()
     var thename = document.getElementById("searchTxt").value;
     var namelength = thename.length
     function name(string, count = 0) {
@@ -3017,7 +2994,8 @@ $(document).ready(function() {
 
     var personplayer = name(thename)
     var playerId = personplayer.firstName + "+" + personplayer.lastName //something in the json
-    console.log(playerId)
+    var playerskill = personplayer.primarySkill
+    var isplayergood = personplayer.scrubBenchStarter
     $.ajax({
         url: "https://api.cognitive.microsoft.com/bing/v7.0/images/search?q="+playerId+"+nba+gif&mkt=en-us/",
         beforeSend: function(xhrObj) {
@@ -3033,9 +3011,9 @@ $(document).ready(function() {
         var imageUrl1 = data.value[0].contentUrl;
         var youareLine =  $('<h2>').html(yournamestring)
         var playerImage1 = $('<img>').attr('src', imageUrl1);
-        $("#playerinfo").append(playerImage1,youareLine)
+        $("#playerinfo").append(youareLine,playerImage1)
         $.ajax({
-            url: "https://api.cognitive.microsoft.com/bing/v7.0/images/search?q="+namelength+"+reactiongif&mkt=en-us/",
+            url: "https://api.cognitive.microsoft.com/bing/v7.0/images/search?q="+playerskill+"+gif&mkt=en-us/",
             beforeSend: function(xhrObj) {
               // Request headers
               xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key", "d9c75868d25d4db1b924ecd9d4bacf02");
@@ -3047,11 +3025,11 @@ $(document).ready(function() {
           .done(function(data2) {
 
 
-            var reaction = "And " + personplayer.firstName +" "+ personplayer.lastName + " is..."
-            var imageUrl2 = data2.value[0].contentUrl;
+            var reaction = "And " + personplayer.firstName +" "+ personplayer.lastName + " is good at:" + playerskill
+            var imageUrl2 = data2.value[0].contentUrl;1
             var funnyLine =  $('<h2>').html(reaction)
             var playerImage2 = $('<img>').attr('src', imageUrl2);
-            $("#playerinfo").append(playerImage2,funnyLine)
+            $("#playerinfo").append(funnyLine,playerImage2)
           })
           .fail(function() {
             alert("error");

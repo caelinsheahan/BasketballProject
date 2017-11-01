@@ -481,8 +481,8 @@ var playernames = [{
     {
       "firstName": "Vince",
       "lastName": "Carter",
-      "scrubBenchStarter": 'Good',
-      "primarySkill": 'legend'
+      "scrubBenchStarter": 'Best Dunker Ever',
+      "primarySkill": 'flight'
     },
     {
       "firstName": "Michael",

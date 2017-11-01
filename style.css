@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image:url('http://s1.thingpic.com/images/nT/aHRf1fwQSj7fyzPK8BTK3p5q.png');
+  padding: 5px
+}
+h2{
+  color: white;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+.main{
+  background-image: url('http://luxurydreamhome.net/cdn/img/creative-of-solid-wood-hardwood-flooring-hickory-solid-hardwood-wood-flooring-flooring-the-home-depot.jpg');
+  align-self: center;
+  text-align: center;
+  opacity: 0.85;
+}
+
+.head1{
+  align-self: center;
+  text-align: center;
+}
+.head2{
+  align-self: center;
+  text-align: center;
+}
+
+.nav1{
+  align-self: center;
+  text-align: center;
+}
+.nav2{
+    align-self: center;
+    text-align: center;
+}
+.side{
+  background: #eee;
+  align-self: center;
+  opacity: 0.9;
+}
+.foot{
+  align-self: center;
+  text-align: center;
+}
+/*//^^^^simple style^^^^^//*/
+/*//vvvvv Grid Style vvvvv//*/
+
+.nav1{
+grid-area: nav1;
+}
+.nav2{
+grid-area: nav2;
+}
+.head1{
+grid-area: hd1;
+}
+.head2{
+grid-area: hd2;
+}
+.main{
+grid-area: main;
+}
+
+.side{
+grid-area: side;
+}
+
+.foot{
+grid-area: foot;
+}
+
+.grid{
+height: 100vh;
+width: 100vw;
+display: grid;
+grid-template-columns: repeat(3, ifr);
+grid-column-gap: 3px;
+grid-template-areas:
+'hd1 main nav1'
+'hd1 foot nav1'
+'hd2 side nav2'
+'hd2 side nav2'
+}
+
+@media screen and (max-width: 800px) {
+  .grid{
+    grid-template-columns: auto 20%;
+    grid-template-areas:
+    'main'
+    'nav1'
+    'nav2'
+    'hd1'
+    'hd2'
+    'foot'
+    'side'
+  }
+}

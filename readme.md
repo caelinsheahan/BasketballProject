@@ -13,3 +13,9 @@ This is a site that give you the current nba scores for the day, and the players
 The idea here is that the user is looking to see what the nba scores are.
 
 The tech we will be using to achieve this will be JQuery, the nba API and the classic combo of html/javascript/css. And maybe some bootstrap cards.
+
+
+####Testing####
+-Navigate to test
+-Click on index.html
+-Profit

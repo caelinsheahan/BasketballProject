@@ -1,3 +1,4 @@
+var storeaccess = JSON.parse(localStorage.getItem('namestorage')) || []
 function name(string, count = 0) {
   var testname = string
   let str = string.split('')

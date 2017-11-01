@@ -6,6 +6,13 @@ body{
   background-image:url('http://s1.thingpic.com/images/nT/aHRf1fwQSj7fyzPK8BTK3p5q.png');
   padding: 5px
 }
+img{
+  border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    width: 350px;
+    height: 262.5px; 
+}
 h2{
   color: white;
   text-shadow: 0 1px 0 #ccc,

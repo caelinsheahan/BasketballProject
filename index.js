@@ -626,7 +626,7 @@ var playernames = [{
       "firstName": "Goran",
       "lastName": "Dragic",
       "scrubBenchStarter": 'good',
-      "primarySkill": 'crafty'
+      "primarySkill": 'clever'
     },
     {
       "firstName": "Andre",
@@ -890,7 +890,7 @@ var playernames = [{
       "firstName": "Tony",
       "lastName": "Parker",
       "scrubBenchStarter": 'aight',
-      "primarySkill": 'crafty'
+      "primarySkill": 'clever'
     },
     {
       "firstName": "Chandler",
@@ -1026,7 +1026,7 @@ $('#welcome').append(prevplay)
     var { playerId, playerNewsID, playerskill, isplayergood, namestorage } = parsePersonPlayer(personplayer);
       localStorage.setItem('namestorage', JSON.stringify(namestorage))
     $.ajax({
-        url: "https://api.cognitive.microsoft.com/bing/v7.0/images/search?q="+playerId+"+nba+gif&mkt=en-us/",
+        url: "https://api.cognitive.microsoft.com/bing/v7.0/images/search?q="+playerId+"+nba+player+gif&mkt=en-us/",
         beforeSend: function(xhrObj) {
           // Request headers
           xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key", "d9c75868d25d4db1b924ecd9d4bacf02");

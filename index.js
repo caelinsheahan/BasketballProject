@@ -871,7 +871,7 @@ var playernames = [{
     {
       "firstName": "Chandler",
       "lastName": "Parsons",
-      "scrubBenchStarter": 'uninspiring',
+      "scrubBenchStarter": 'Solid',
       "primarySkill": 'turribleknees'
     },
     {

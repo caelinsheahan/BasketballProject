@@ -31,13 +31,13 @@ function parsePersonPlayer(personplayer){
 var playernames = [{
       "firstName": "Alex",
       "lastName": "Abrines",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'bullseye'
     },
     {
       "firstName": "Quincy",
       "lastName": "Acy",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'dunking'
     },
     {
@@ -55,19 +55,19 @@ var playernames = [{
     {
       "firstName": "Arron",
       "lastName": "Afflalo",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'bullseye'
     },
     {
       "firstName": "Alexis",
       "lastName": "Ajinca",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'tall'
     },
     {
       "firstName": "Cole",
       "lastName": "Aldrich",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'meh'
     },
     {
@@ -79,7 +79,7 @@ var playernames = [{
     {
       "firstName": "Jarrett",
       "lastName": "Allen",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'meh'
     },
     {
@@ -103,13 +103,13 @@ var playernames = [{
     {
       "firstName": "Justin",
       "lastName": "Anderson",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'meh'
     },
     {
       "firstName": "Kyle",
       "lastName": "Anderson",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'meh'
     },
     {
@@ -151,13 +151,13 @@ var playernames = [{
     {
       "firstName": "Trevor",
       "lastName": "Ariza",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'long'
     },
     {
       "firstName": "Darrell",
       "lastName": "Arthur",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'boring'
     },
     {
@@ -169,13 +169,13 @@ var playernames = [{
     {
       "firstName": "Omer",
       "lastName": "Asik",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'turkish'
     },
     {
       "firstName": "D.J.",
       "lastName": "Augustin",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'turntable'
     },
     {
@@ -223,8 +223,8 @@ var playernames = [{
     {
       "firstName": "Will",
       "lastName": "Barton",
-      "scrubBenchStarter": 'unremarkable',
-      "primarySkill": 'unremarkable'
+      "scrubBenchStarter": 'uninspiring',
+      "primarySkill": 'uninspiring'
     },
     {
       "firstName": "Nicolas",
@@ -235,7 +235,7 @@ var playernames = [{
     {
       "firstName": "Jerryd",
       "lastName": "Bayless",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'eddy murphy reaction'
     },
     {
@@ -247,7 +247,7 @@ var playernames = [{
     {
       "firstName": "Kent",
       "lastName": "Bazemore",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'more'
     },
     {
@@ -265,19 +265,19 @@ var playernames = [{
     {
       "firstName": "Michael",
       "lastName": "Beasley",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'blazin'
     },
     {
       "firstName": "Marco",
       "lastName": "Belinelli",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'italian'
     },
     {
       "firstName": "Jordan",
       "lastName": "Bell",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'snore'
     },
     {
@@ -289,13 +289,13 @@ var playernames = [{
     {
       "firstName": "Dragan",
       "lastName": "Bender",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'dragon'
     },
     {
       "firstName": "Davis",
       "lastName": "Bertans",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'meh'
     },
     {
@@ -313,7 +313,7 @@ var playernames = [{
     {
       "firstName": "Bismack",
       "lastName": "Biyombo",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'defense'
     },
     {
@@ -349,13 +349,13 @@ var playernames = [{
     {
       "firstName": "Bojan",
       "lastName": "Bogdanovic",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'tracksuit'
     },
     {
       "firstName": "Andrew",
       "lastName": "Bogut",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'steveirwin'
     },
     {
@@ -367,7 +367,7 @@ var playernames = [{
     {
       "firstName": "Trevor",
       "lastName": "Booker",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'turn a new page'
     },
     {
@@ -391,19 +391,19 @@ var playernames = [{
     {
       "firstName": "Corey",
       "lastName": "Brewer",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'traveling'
     },
     {
       "firstName": "Malcolm",
       "lastName": "Brogdon",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'old'
     },
     {
       "firstName": "Aaron",
       "lastName": "Brooks",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'small'
     },
     {
@@ -421,7 +421,7 @@ var playernames = [{
     {
       "firstName": "Jaylen",
       "lastName": "Brown",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'meh'
     },
     {
@@ -439,7 +439,7 @@ var playernames = [{
     {
       "firstName": "Alec",
       "lastName": "Burks",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'dunking'
     },
     {
@@ -451,7 +451,7 @@ var playernames = [{
     {
       "firstName": "Jose",
       "lastName": "Calderon",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'ancient'
     },
     {
@@ -470,7 +470,7 @@ var playernames = [{
       "firstName": "Alex",
       "lastName": "Caruso",
       "scrubBenchStarter": 'turrible',
-      "primarySkill": ''
+      "primarySkill": 'None?'
     },
     {
       "firstName": "Michael",
@@ -487,37 +487,37 @@ var playernames = [{
     {
       "firstName": "Omri",
       "lastName": "Casspi",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'bullseye'
     },
     {
       "firstName": "Willie",
       "lastName": "Cauley-Stein",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'tall'
     },
     {
       "firstName": "Mario",
       "lastName": "Chalmers",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'yell at chalmers'
     },
     {
       "firstName": "Tyson",
       "lastName": "Chandler",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'defense'
     },
     {
       "firstName": "Wilson",
       "lastName": "Chandler",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'bullseye'
     },
     {
       "firstName": "Jordan",
       "lastName": "Clarkson",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'splish'
     },
     {
@@ -541,7 +541,7 @@ var playernames = [{
     {
       "firstName": "Allen",
       "lastName": "Crabbe",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'crabwithknife'
     },
     {
@@ -559,7 +559,7 @@ var playernames = [{
     {
       "firstName": "Seth",
       "lastName": "Curry",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'imitation'
     },
     {
@@ -608,7 +608,7 @@ var playernames = [{
       "firstName": "Andre",
       "lastName": "Drummond",
       "scrubBenchStarter": 'good',
-      "primarySkill": 'cannotshoot'
+      "primarySkill": 'cannot shoot'
     },
     {
       "firstName": "Jared",
@@ -632,7 +632,7 @@ var playernames = [{
       "firstName": "Yogi",
       "lastName": "Ferrell",
       "scrubBenchStarter": 'good',
-      "primarySkill": 'muggsybogues'
+      "primarySkill": 'muggsy bogues'
     },
     {
       "firstName": "De'Aaron",
@@ -656,7 +656,7 @@ var playernames = [{
       "firstName": "Pau",
       "lastName": "Gasol",
       "scrubBenchStarter": 'good',
-      "primarySkill": 'oldmangame'
+      "primarySkill": 'old man game'
     },
     {
       "firstName": "Rudy",
@@ -865,19 +865,19 @@ var playernames = [{
     {
       "firstName": "Tony",
       "lastName": "Parker",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'clever'
     },
     {
       "firstName": "Chandler",
       "lastName": "Parsons",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'turribleknees'
     },
     {
       "firstName": "Patrick",
       "lastName": "Patterson",
-      "scrubBenchStarter": 'unremarkable',
+      "scrubBenchStarter": 'uninspiring',
       "primarySkill": 'postup'
     },
     {

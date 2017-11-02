@@ -848,7 +848,7 @@ var playernames = [{
       "firstName": "Larry",
       "lastName": "Nance Jr.",
       "scrubBenchStarter": 'ok',
-      "primarySkill": 'highflyer'
+      "primarySkill": 'frequent flyer'
     },
     {
       "firstName": "Dirk",

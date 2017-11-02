@@ -242,7 +242,7 @@ var playernames = [{
       "firstName": "Aron",
       "lastName": "Baynes",
       "scrubBenchStarter": 'Good',
-      "primarySkill": 'this is aknife'
+      "primarySkill": 'australian'
     },
     {
       "firstName": "Kent",

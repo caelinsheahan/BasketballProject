@@ -805,13 +805,13 @@ var playernames = [{
     {
       "firstName": "Thon",
       "lastName": "Maker",
-      "scrubBenchStarter": 'starter',
+      "scrubBenchStarter": 'solid',
       "primarySkill": 'beanstalk'
     },
     {
       "firstName": "Boban",
       "lastName": "Marjanovic",
-      "scrubBenchStarter": 'starter',
+      "scrubBenchStarter": 'solid',
       "primarySkill": 'giant'
     },
     {
@@ -841,8 +841,8 @@ var playernames = [{
     {
       "firstName": "Jamal",
       "lastName": "Murray",
-      "scrubBenchStarter": 'starter',
-      "primarySkill": 'wet'
+      "scrubBenchStarter": 'solid',
+      "primarySkill": 'buckets'
     },
     {
       "firstName": "Larry",
@@ -859,7 +859,7 @@ var playernames = [{
     {
       "firstName": "Jusuf",
       "lastName": "Nurkic",
-      "scrubBenchStarter": 'starter',
+      "scrubBenchStarter": 'solid',
       "primarySkill": 'trashtalk'
     },
     {
@@ -925,7 +925,7 @@ var playernames = [{
     {
       "firstName": "Ricky",
       "lastName": "Rubio",
-      "scrubBenchStarter": 'starter',
+      "scrubBenchStarter": 'solid',
       "primarySkill": 'passing'
     },
     {

@@ -481,8 +481,8 @@ var playernames = [{
     {
       "firstName": "Vince",
       "lastName": "Carter",
-      "scrubBenchStarter": 'Best Dunker Ever',
-      "primarySkill": 'flight'
+      "scrubBenchStarter": 'Simply Vince Carter',
+      "primarySkill": 'Vince Carter Olympics'
     },
     {
       "firstName": "Michael",
@@ -512,7 +512,7 @@ var playernames = [{
       "firstName": "Mario",
       "lastName": "Chalmers",
       "scrubBenchStarter": 'acceptable',
-      "primarySkill": 'yellatchalmers'
+      "primarySkill": 'yell at chalmers'
     },
     {
       "firstName": "Tyson",

@@ -467,10 +467,10 @@ var playernames = [{
       "primarySkill": 'defense'
     },
     {
-      "firstName": "Vince",
-      "lastName": "Carter",
-      "scrubBenchStarter": 'Simply Vince Carter',
-      "primarySkill": 'Vince Carter Olympics'
+      "firstName": "Alex",
+      "lastName": "Caruso",
+      "scrubBenchStarter": 'turrible',
+      "primarySkill": ''
     },
     {
       "firstName": "Michael",
@@ -479,10 +479,10 @@ var playernames = [{
       "primarySkill": 'oliveoilarms'
     },
     {
-      "firstName": "Alex",
-      "lastName": "Caruso",
-      "scrubBenchStarter": 'turrible',
-      "primarySkill": ''
+      "firstName": "Vince",
+      "lastName": "Carter",
+      "scrubBenchStarter": 'Simply Vince Carter',
+      "primarySkill": 'Vince Carter Olympics'
     },
     {
       "firstName": "Omri",

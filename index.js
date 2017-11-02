@@ -425,12 +425,6 @@ var playernames = [{
       "primarySkill": 'meh'
     },
     {
-      "firstName": "Lorenzo",
-      "lastName": "Brown",
-      "scrubBenchStarter": 'turrible',
-      "primarySkill": 'snore'
-    },
-    {
       "firstName": "Sterling",
       "lastName": "Brown",
       "scrubBenchStarter": 'turrible',

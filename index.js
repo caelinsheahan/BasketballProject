@@ -425,12 +425,6 @@ var playernames = [{
       "primarySkill": 'meh'
     },
     {
-      "firstName": "Sterling",
-      "lastName": "Brown",
-      "scrubBenchStarter": 'turrible',
-      "primarySkill": 'pounds'
-    },
-    {
       "firstName": "Nicolas",
       "lastName": "Brussino",
       "scrubBenchStarter": 'turrible',
@@ -535,7 +529,7 @@ var playernames = [{
     {
       "firstName": "Mike",
       "lastName": "Conley",
-      "scrubBenchStarter": 'Allstar Guard',
+      "scrubBenchStarter": 'Allarounder',
       "primarySkill": 'finishing'
     },
     {

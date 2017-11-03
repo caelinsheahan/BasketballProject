@@ -869,12 +869,6 @@ var playernames = [{
       "primarySkill": 'turribleknees'
     },
     {
-      "firstName": "Patrick",
-      "lastName": "Patterson",
-      "scrubBenchStarter": 'uninspiring',
-      "primarySkill": 'postup'
-    },
-    {
       "firstName": "Justin",
       "lastName": "Patton",
       "scrubBenchStarter": 'turrible',

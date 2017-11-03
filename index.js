@@ -1069,8 +1069,8 @@ $('#welcome').append(prevplay)
                                     var headline1Link = data4.value[0].url;
                                     var headline2Link = data4.value[1].url;
                                     var newsheader = $('<h3>').html(playerNews)
-                                    var link1 = $('<li>').html(headline1Link)
-                                    var link2 = $('<li>').html(headline2Link)
+                                    var link1 = $('<a>').html(headline1Link)
+                                    var link2 = $('<a>').html(headline2Link)
                                     link1.attr('href',headline1Link)
                                     link2.attr('href',headline2Link)
                                     var postHL1 =  $('<li>').html(headline1)

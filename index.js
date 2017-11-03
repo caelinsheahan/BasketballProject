@@ -593,12 +593,6 @@ var playernames = [{
       "primarySkill": 'fathertime'
     },
     {
-      "firstName": "Spencer",
-      "lastName": "Dinwiddie",
-      "scrubBenchStarter": 'bench',
-      "primarySkill": 'letsgobuffs'
-    },
-    {
       "firstName": "Goran",
       "lastName": "Dragic",
       "scrubBenchStarter": 'good',
@@ -998,7 +992,6 @@ $('#welcome').append(prevplay)
     var namelength = thename.length
 
     var personplayer = name(thename)
-    debugger;
     var { playerId, playerNewsID, playerskill, isplayergood, namestorage } = parsePersonPlayer(personplayer);
       localStorage.setItem('namestorage', JSON.stringify(namestorage))
     $.ajax({
@@ -1076,9 +1069,13 @@ $('#welcome').append(prevplay)
                                     var headline1Link = data4.value[0].url;
                                     var headline2Link = data4.value[1].url;
                                     var newsheader = $('<h3>').html(playerNews)
-                                    var postHL1 =  $('<ul>').html(headline1)
+                                    var link1 = $('<li>').html(headline1Link)
+                                    var link2 = $('<li>').html(headline2Link)
+                                    link1.attr('href',headline1Link)
+                                    link2.attr('href',headline2Link)
+                                    var postHL1 =  $('<li>').html(headline1)
                                     var postHL2 =  $('<li>').html(headline2)
-                                    $(".playernews").append(newsheader,postHL1)
+                                    $(".playernews").append(newsheader,postHL1,link1,postHL2,link2)
 
                           })
                           .fail(function() {

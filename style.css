@@ -11,7 +11,17 @@ img{
     background: #73AD21;
     padding: 20px;
     width: 350px;
-    height: 262.5px; 
+    height: 262.5px;
+}
+ul{
+  list-style: none
+}
+a {
+    display:inline;
+}
+a:after {
+    content:"\a";
+    white-space: pre;
 }
 h2{
   color: white;

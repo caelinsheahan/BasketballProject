@@ -1063,7 +1063,8 @@ $('#welcome').append(prevplay)
                             data: "",
                           })
                           .done(function(data4) {
-                                    var playerNews = "Recent News"
+                                    var playerNews = "Recent News:"
+                                    var newsbreak = $('<br>')
                                     var headline1 = data4.value[0].name;
                                     var headline2= data4.value[1].name;
                                     var headline1Link = data4.value[0].url;
@@ -1075,7 +1076,7 @@ $('#welcome').append(prevplay)
                                     link2.attr('href',headline2Link)
                                     var postHL1 =  $('<li>').html(headline1)
                                     var postHL2 =  $('<li>').html(headline2)
-                                    $(".playernews").append(newsheader,postHL1,link1,postHL2,link2)
+                                    $(".playernews").append(newsheader,newsbreak,postHL1,link1,newsbreak,postHL2,link2)
 
                           })
                           .fail(function() {
